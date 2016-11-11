@@ -6,14 +6,20 @@
 	<div class="row" style="font-family:'Roboto'">	
 		<div class="col-md-8">
 			<h3 style="margin-top:5px;">Registration Fees</h3>
-			<h4>International / Foreign Participant*</h4>
+			<h4>General Participants</h4>
 			<table class="table table-hover">
 				<thead>
 					<tr>
-						<th>#</th>
-						<th>Category</th>
-						<th>Early Payment</th>
-						<th>Regular</th>
+						<th rowspan="2">#</th>
+						<th rowspan="2">Category</th>
+						<th colspan="2">Early Payment</th>
+						<th colspan="2">Regular</th>
+					</tr>
+					<tr style="font-size: 12px;">
+						<th>International</th>
+						<th>Domestic</th>
+						<th>International</th>
+						<th>Domestic</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -21,34 +27,61 @@
 						<td>1</td>
 						<td>Speaker</td>
 						<td>USD 250</td>
-						<td>USD 300</td>
+						<td>IDR 2,000,000</td>
+						<td>USD 350</td>
+						<td>IDR 3,000,000</td>
 					</tr>
 					<tr>
 						<td>2</td>
-						<td>Next paper</td>
-						<td>USD 100</td>
-						<td>USD 125</td>
+						<td>IEEE Member Speaker</td>
+						<td>USD 225</td>
+						<td>IDR 1,800,000</td>
+						<td>USD 315</td>
+						<td>IDR 2,700,000</td>
 					</tr>
 					<tr>
 						<td>3</td>
+						<td>APTIKOM Member Speaker</td>
+						<td>-</td>
+						<td>IDR 1,800,000</td>
+						<td>-</td>
+						<td>IDR 2,700,000</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>Next Paper</td>
+						<td>USD 100</td>
+						<td>IDR 1,000,000</td>
+						<td>USD 150</td>
+						<td>IDR 1,500,000</td>
+					</tr>
+					<tr>
+						<td>5</td>
 						<td>Non-Speaker</td>
 						<td>USD 175</td>
+						<td>IDR 1,250,000</td>
 						<td>USD 200</td>
-					</tr>									
+						<td>IDR 1,500,000</td>
+					</tr>
 				</tbody>
 			</table>
-			<p>* IEEE Member get a 10% discount <br>
-			<b>IEEE Member participants should input their IEEE ID</b>
+			<b>IEEE & APTIKOM Member participants should input their Member ID</b>
 			<br>
 			<br>
-			<h4>IEEE Student Member</h4>
+			<h4>Student Participants*</h4>
 			<table class="table table-hover">
 				<thead>
 					<tr>
-						<th>#</th>
-						<th>Category</th>
-						<th>Early Payment</th>
-						<th>Regular</th>
+						<th rowspan="2">#</th>
+						<th rowspan="2">Category</th>
+						<th colspan="2">Early Payment</th>
+						<th colspan="2">Regular</th>
+					</tr>
+					<tr style="font-size: 12px;">
+						<th>International</th>
+						<th>Domestic</th>
+						<th>International</th>
+						<th>Domestic</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -56,58 +89,37 @@
 						<td>1</td>
 						<td>Speaker</td>
 						<td>USD 200</td>
-						<td>USD 250</td>
+						<td>IDR 1,500,000</td>
+						<td>USD 300</td>
+						<td>IDR 2,000,000</td>
 					</tr>
 					<tr>
 						<td>2</td>
-						<td>Next paper</td>
-						<td>USD 100</td>
-						<td>USD 125</td>
-					</tr>
-					<tr>
-						<td>3</td>
-						<td>Non-Speaker</td>
-						<td>USD 130</td>
+						<td style="padding-right: 40px;">IEEE Member Speaker</td>
+						<td>USD 90</td>
+						<td>IDR 750,000</td>
 						<td>USD 150</td>
-					</tr>										
-				</tbody>
-			</table>
-			<b>IEEE Student participants should input their Student ID</b>
-			<br>
-			<br>
-			<h4>Domestic/Local Participant*</h4>
-			<table class="table table-hover">
-				<thead>
-					<tr>
-						<th>#</th>
-						<th>Category</th>
-						<th>Early Payment</th>
-						<th>Regular</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>1</td>
-						<td>Speaker</td>
-						<td>IDR 2.000.000</td>
-						<td>IDR 2.500.000</td>
+						<td>IDR 1,000,000</td>
 					</tr>
 					<tr>
 						<td>3</td>
-						<td>Next paper</td>
-						<td>IDR 1.000.000</td>
-						<td>IDR 1.250.000</td>
+						<td>Next Paper</td>
+						<td>USD 100</td>
+						<td>IDR 1,000,000</td>
+						<td>USD 150</td>
+						<td>IDR 1,500,000</td>
 					</tr>
 					<tr>
 						<td>4</td>
 						<td>Non-Speaker</td>
-						<td>IDR 1.250.000</td>
-						<td>IDR 1.500.000</td>
-					</tr>								
+						<td>USD 175</td>
+						<td>IDR 1,000,000</td>
+						<td>USD 200</td>
+						<td>IDR 1,250,000</td>
+					</tr>
 				</tbody>
 			</table>
-			<p>* IEEE Member get a 10% discount <br>
-			<b>IEEE Member participants should input their IEEE ID</b>
+			<b>IEEE Student participants should input their Student ID & IEEE Member ID</b>
 			<br>
 			<br>
 			<h4>Payment Information</h4>
@@ -159,18 +171,17 @@
                  <div class="form-group col-lg-12 col-md-12 col-sm-12 slideanim">
 					 <select name="categories" class="form-control" style="border-radius: 0px; height: 65px; border: 1px solid #000; font-size: 18px; padding-left: 15px;" required>
 					   <option value="" disabled selected>Categories</option>
-					   <optgroup label="-International-">
-					   <option value="isp">Speaker</option>
-					   <option value="inp">Next Paper</option>
-					   <option value="insp">Non-Speaker</option>
-					   <optgroup label="-IEEE Student Member-">
+					   <optgroup label="-General-">
+					   <option value="gsp">Speaker</option>
+					   <option value="gimsp">IEEE Member Speaker</option>
+					   <option value="gamsp">APTIKOM Member Speaker</option>
+					   <option value="gnp">Next Paper</option>
+					   <option value="gnsp">Non-Speaker</option>
+					   <optgroup label="-Student-">
 					   <option value="ssp">Speaker</option>
+					   <option value="simsp">IEEE Member Speaker</option>
 					   <option value="snp">Next Paper</option>
 					   <option value="snsp">Non-Speaker</option>
-					   <optgroup label="-Domestic-">
-					   <option value="dsp">Speaker</option>
-					   <option value="dnp">Next Paper</option>
-					   <option value="dnsp">Non-Speaker</option>
 					 </select>
 				 </div>
 				 <div class="form-group col-lg-12 col-md-12 col-sm-12 slideanim">
@@ -178,8 +189,8 @@
                      <input type="text" class="form-control pno" name="title" placeholder="Student ID"/>
                  </div>
 				 <div class="form-group col-lg-12 col-md-12 col-sm-12 slideanim">
-				 <b>For IEEE Member</b>
-                     <input type="text" class="form-control pno" name="title" placeholder="IEEE ID"/>
+				 <b>For IEEE & APTIKOM Member</b>
+                     <input type="text" class="form-control pno" name="title" placeholder="Member ID"/>
                  </div>
                  <div class="form-group col-lg-12 col-md-12 col-sm-12 slideanim">
                  		<b>Payment Document</b>
