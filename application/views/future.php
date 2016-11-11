@@ -36,7 +36,6 @@
 		<center>
 			<h3>2023 9th International Conference on Science in Information Technology (ICSITech)<br>October 25-26, 2023; Jakarta, Indonesia * </h3>
 			<p>Hosted by: <b>Universitas Budi Luhur, Jakarta, Indonesia</b> <br>
-			<p>Hosted by: <b>Universitas Budi Luhur, Jakarta, Indonesia</b> <br>
 		</center>
 	</div>
  </div>
