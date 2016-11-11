@@ -120,6 +120,7 @@
 				</tbody>
 			</table>
 			<b>IEEE Student participants should input their Student ID & IEEE Member ID</b>
+			<p>*IEEE Student Member will not get Seminar Kit</p>
 			<br>
 			<br>
 			<h4>Payment Information</h4>
