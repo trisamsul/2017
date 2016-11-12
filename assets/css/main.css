@@ -159,7 +159,8 @@ p, ul, li{
 }
 
 #box1{
-	background-color: #ff1919;
+	background: #ff1919 url(/2017/assets/img/box-decorative.png) bottom right no-repeat;
+	height: 130px;
 	color:white;
 	padding: 5px;
 	    padding-bottom: 25px;
@@ -169,7 +170,8 @@ p, ul, li{
 
 }
 #box2{
-	background-color: #ffa619;
+	background: #ffa619 url(/2017/assets/img/box-decorative.png) bottom right no-repeat;
+	height: 130px;
 	color:white;
 		padding: 5px;
 	    padding-bottom: 25px;
@@ -179,7 +181,8 @@ p, ul, li{
 
 }
 #box3{
-	background-color: #1094a4;
+	background: #1094a4 url(/2017/assets/img/box-decorative.png) bottom right no-repeat;
+	height: 130px;
 	color:white;
 		padding: 5px;
 	    padding-bottom: 25px;
@@ -632,6 +635,17 @@ li.delimiter {
 
 .link1:hover{
 	text-decoration: none;
+}
+
+.link2{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Oswald';
+}
+
+.link2:hover{
+	text-decoration: none;
+	color: #e0dcd9;
 }
 
 .suites{

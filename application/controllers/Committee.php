@@ -24,4 +24,10 @@ class Committee extends CI_Controller {
 		$this->load->view('committee');
 		$this->load->view('layout/footer');
 	}
+
+        public function keynote(){
+		$this->load->view('layout/header');
+		$this->load->view('ks');
+		$this->load->view('layout/footer');
+        }
 }

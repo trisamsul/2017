@@ -76,25 +76,19 @@
       </div>
       
     </div><!-- /.carousel -->
-    <div class="row">
-      <hr id="dexhr">
-    </div>
+    
 		
 		<div class="row">
 			<div class="col-md-4" id="box1">
-				<h3 class="bold">Registration & Submission</h3>
-				<p class="textBox">Take your seat now</p>
-				<a class="ghost-button-thick-border" href="<?php echo site_url('Registration/'); ?>" style="width:120px; text-decoration: none;">REGISTER</a>&nbsp;<a class="ghost-button-thick-border" href="<?php echo site_url('Submission/'); ?>" style="width:120px; text-decoration: none;">SUBMISSION</a>
+				<h3><a href="<?php echo site_url('Registration/'); ?>" class="link2">REGISTRATION >></a></h3>
+				<h3><a href="<?php echo site_url('Submission/'); ?>" class="link2">SUBMISSION >></a></h3>
 			</div>
 			<div class="col-md-4" id="box2">
-				<h3 class="bold">Previous and Future Conferences</h3>
-				<p class="textBox">Previous and Future ICSITech Conferences</p>
-				<a class="ghost-button-thick-border" href="<?php echo site_url('Conference/Latest'); ?>" style="width:135px; text-decoration: none;">READ MORE</a>
+				<h3><a href="<?php echo site_url('Conference/Previous'); ?>" class="link2">PREVIOUS CONFERENCES >></a></h3>
+				<h3><a href="<?php echo site_url('Conference/Future'); ?>" class="link2">FUTURE CONFERENCES >></a></h3>
 			</div>
 			<div class="col-md-4" id="box3">
-				<h3 class="bold">Publication &amp; Ethics</h3>
-				<p class="textBox">Paper Publication & Malpractice Statement</p>
-				<a class="ghost-button-thick-border" href="<?php echo site_url('Conference/publication'); ?>" style="width:140px; text-decoration: none;">READ MORE</a>
+				<h3><a href="<?php echo site_url('Conference/publication'); ?>" class="link2">PUBLICATION & ETHICS >></a></h3>
 			</div>		
 		</div>
 		<br><br>
@@ -442,7 +436,7 @@ Universiti Kebangsaan Malaysia
 				<div class="col-md-5" style="">				
 					<a href="http://www.upi.edu/" target="_blank"><img src="<?php echo base_url('assets/img/upi.png'); ?>" alt="" style="width:70px;"></a>
 					<a href="http://www.upnyk.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/upn.png'); ?>" alt="" style="width:72px;"></a>
-                                        <a href="http://www.unmul.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/unmul.png'); ?>" alt="" style="width:70px;"></a>
+                    <a href="http://www.unmul.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/unmul.png'); ?>" alt="" style="width:70px;"></a>
 					<a href="http://www.ums.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/ums.png'); ?>" alt="" style="width:72px;"></a>
 					<a href="http://www.ums.edu.my/" target="_blank"><img src="<?php echo base_url('assets/img/umsa.png'); ?>" alt="" style="width:72px;"></a>
 					<a href="http://www.budiluhur.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/ubl.png'); ?>" alt="" style="width:72px;"></a>
