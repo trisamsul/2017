@@ -9,6 +9,10 @@
 				<img src="<?php echo base_url('assets/img/icon_pdf.jpg'); ?>" >
 				<a class="link1" href="<?php echo base_url('assets/file/ICSITech-2017-Brochure.pdf'); ?>" target="_blank">ICSITech 2017 Brochure</a>
 			</li>
+			<li>
+				<img src="<?php echo base_url('assets/img/icon_pdf.jpg'); ?>" >
+				<a class="link1" href="<?php echo base_url('assets/file/ReviewerForm.pdf'); ?>" target="_blank">ICSITech 2017 Reviewer Form</a>
+			</li>
 		  </ul>
 		</div>
 		

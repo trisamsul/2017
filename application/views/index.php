@@ -76,12 +76,15 @@
       </div>
       
     </div><!-- /.carousel -->
+    <div class="row">
+      <hr id="dexhr">
+    </div>
 		
 		<div class="row">
 			<div class="col-md-4" id="box1">
-				<h3 class="bold">Registration</h3>
-				<p class="textBox">Take your seat now.</p>
-				<a class="ghost-button-thick-border" href="<?php echo site_url('Registration/'); ?>" style="width:120px; text-decoration: none;">REGISTER</a>
+				<h3 class="bold">Registration & Submission</h3>
+				<p class="textBox">Take your seat now</p>
+				<a class="ghost-button-thick-border" href="<?php echo site_url('Registration/'); ?>" style="width:120px; text-decoration: none;">REGISTER</a>&nbsp;<a class="ghost-button-thick-border" href="<?php echo site_url('Submission/'); ?>" style="width:120px; text-decoration: none;">SUBMISSION</a>
 			</div>
 			<div class="col-md-4" id="box2">
 				<h3 class="bold">Previous and Future Conferences</h3>
@@ -110,7 +113,7 @@
 				<p>
 				Significant tourist sites near Bandung include the Tangkuban Prahu volcano crater to the north, the striking Kawah Putih volcano lake, and Patenggang Lake, a lake surrounded by tea plantations about 50 kilometres (31 miles) to the south of the city.</p>
 				
-				<p>ICSITech 2017 has been approved by IEEE for Technical co-sponsorship with conference record number <a href="http://www.ieee.org/conferences_events/conferences/organizers/conf_app.html?confRecNum=40947" class="link1" target="_blank">#40947</a>. Short information about the conference in IEEE Conference List can be accessed <a href="http://www.ieee.org/conferences_events/conferences/organizers/conf_app.html?confRecNum=40947" style="text-decoration: none; color:#4aa3ff" target="_blank">here</a> . The papers accepted and presented will be forwarding for consideration to be published in the IEEE Xplore Digital Library. Non-presented papers will be pulled from submission to IEEE Xplore. Several media type will be produced for Proceeding with the following ISBN and catalog numbers:</p>
+				<p>ICSITech 2017 has been approved by IEEE for Technical co-sponsorship with conference record number <a href="http://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=40947" class="link1" target="_blank">#40947</a>. Short information about the conference in IEEE Conference List can be accessed <a href="http://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=40947" style="text-decoration: none; color:#4aa3ff" target="_blank">here</a> . The papers accepted and presented will be forwarding for consideration to be published in the IEEE Xplore Digital Library. Non-presented papers will be pulled from submission to IEEE Xplore. Several media type will be produced for Proceeding with the following ISBN and catalog numbers:</p>
                 <div class="table-responsive">
 				  <table class="table">
 				    <tr>
@@ -313,7 +316,7 @@
 			<div id="owl-sc">
 				<div class="item">
 					<img src="<?php echo base_url('assets/img/dwi.png'); ?>" alt="" class="img-circle figure" align="center"><br>
-					<p class="bold scname" align="center">Prof. DR. Dwi Hendratmo W.</p>
+					<p class="bold scname" align="center">DR. Dwi Hendratmo W.</p>
 					<p align="center" class="scuniv">Institut Teknologi Bandung</p>
 				</div>
 				<div class="item">
@@ -382,7 +385,7 @@
     -o-background-size: cover;
     background-attachment: fixed;">
 			<div class="white" align="center" >
-				<h1 class="titleks">KEYNOTE SPEAKERS</h1>
+				<a href="<?php echo site_url('Committee/keynote'); ?>" style="text-decoration:none;"><h1 class="titleks" style="color:white;">KEYNOTE SPEAKERS</h1></a>
 			</div>
 			<div id="owl-ks">
 				<div class="item">
@@ -390,6 +393,13 @@
 					<p class="bold ksname white" align="center">Prof. DR. Tsukasa Hirashima</p>
 					<p class="ksuniv white" align="center">
 						Learning-Engineering Laboratory<br>Hiroshima University
+					</p>
+				</div>
+				<div class="item">
+					<img src="<?php echo base_url('assets/img/abdurrazaq.png'); ?>" alt="" class="img-circle imgks" align="center">
+					<p class="bold ksname white" align="center">Prof. DR. Abdurazzag Ali Aburas</p>
+					<p class="ksuniv white" align="center">
+						Tecnologico De Monterey, Mexico
 					</p>
 				</div>
 				<div class="item">
@@ -406,7 +416,15 @@
 						Department of Information Science, Faculty of Information Science and Technology<br>
 Universiti Kebangsaan Malaysia
 					</p>
-				</div>														
+				</div>
+				<div class="item">
+					<img src="<?php echo base_url('assets/img/dwi.png'); ?>" alt="" class="img-circle imgks" align="center">
+					<p class="bold ksname white" align="center">DR. Dwi Hendratmo</p>
+					<p class="ksuniv white" align="center">
+						School of Electrical Engineering and Informatics <br>Institut Teknologi Bandung
+					</p>
+				</div>
+														
 			</div>
 		</div>
 	<div class="container">
@@ -422,9 +440,9 @@ Universiti Kebangsaan Malaysia
 				</div>
 				
 				<div class="col-md-5" style="">				
-					<a href="http://www.unmul.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/unmul.png'); ?>" alt="" style="width:70px;"></a>
 					<a href="http://www.upi.edu/" target="_blank"><img src="<?php echo base_url('assets/img/upi.png'); ?>" alt="" style="width:70px;"></a>
 					<a href="http://www.upnyk.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/upn.png'); ?>" alt="" style="width:72px;"></a>
+                                        <a href="http://www.unmul.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/unmul.png'); ?>" alt="" style="width:70px;"></a>
 					<a href="http://www.ums.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/ums.png'); ?>" alt="" style="width:72px;"></a>
 					<a href="http://www.ums.edu.my/" target="_blank"><img src="<?php echo base_url('assets/img/umsa.png'); ?>" alt="" style="width:72px;"></a>
 					<a href="http://www.budiluhur.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/ubl.png'); ?>" alt="" style="width:72px;"></a>

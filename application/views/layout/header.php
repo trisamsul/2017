@@ -75,22 +75,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			        <!-- <li class="pull-left"><a href="#">Dashboard</a></li> -->
 			        <li class="divider"><a href="http://icsitech.org/">HOME</a></li>
 			        <li class="delimiter"><a onclick="return false;">//</a></li>
-			        <li class="divider"><a href="<?php echo site_url('Committee/'); ?>">COMMITTEE</a></li>
+			        <li class="divider"><a href="<?php echo site_url('Committee/keynote'); ?>">KEYNOTE SPEAKERS</a></li>
+	  		        <li class="delimiter"><a>//</a></li>
+			        <li class="divider"><a href="<?php echo site_url('Committee/'); ?>">COMMITTEES</a></li>
 	  		        <li class="delimiter"><a>//</a></li>
 			        <li class="divider"><a href="<?php echo site_url('Dates/'); ?>">DATES</a></li>
 			        <li class="delimiter"><a>//</a></li>		        
 			        <li class="divider"><a href="<?php echo site_url('Venue/'); ?>">VENUE</a></li>
-			        <li class="delimiter"><a>//</a></li>
-			        <li class="divider"><a href="<?php echo site_url('Submission/'); ?>">SUBMISSION</a></li>
-			        <li class="delimiter"><a>//</a></li>  
-			        <li class="divider"><a href="<?php echo site_url('Registration/'); ?>">REGISTRATION</a></li>
-			        <li class="delimiter"><a>//</a></li>
+			        <li class="delimiter"><a>//</a></li> 
 			        <li class="divider"><a href="<?php echo site_url('Visa/'); ?>">VISA MATTERS</a></li>		        
 			        <li class="delimiter"><a>//</a></li>
-					<li class="divider"><a href="<?php echo site_url('Download/'); ?>">DOWNLOAD</a></li>		        
-			        <li class="delimiter"><a>//</a></li>
 			        <li class="divider"><a href="<?php echo site_url('Contact/'); ?>">CONTACT</a></li>
-			        <!-- <li class="social pull-right"><a href="#">Social Links</a></li> -->
+			        <li class="delimiter"><a>//</a></li>
+				<li class="divider"><a href="<?php echo site_url('Download/'); ?>">DOWNLOAD</a></li>		        
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			   <!-- </center> -->

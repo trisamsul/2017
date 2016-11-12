@@ -809,3 +809,28 @@ ul li h5 i{
     font-size: 15.5px;
   }
 }
+ul.nav.navbar-nav {
+    margin-top: -10px;
+    margin-left: 90px;
+}
+
+#gt{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 50%;
+    height: auto;
+}
+
+#ksdiv{
+      border-top: 3px solid #007eff;
+}
+#dexhr {
+    margin-top: 0px;
+    margin-bottom: -1px;
+    border: 0;
+    border-top: 3px solid white;
+}

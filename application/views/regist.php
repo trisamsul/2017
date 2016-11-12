@@ -4,63 +4,96 @@
   <h1 class="head1">Registration</h1>
   <hr>
 	<div class="row" style="font-family:'Roboto'">	
-		<div class="col-md-8">
+		<div class="col-md-12">
 			<h3 style="margin-top:5px;">Registration Fees</h3>
 			<h4>General Participants</h4>
 			<table class="table table-hover">
 				<thead>
 					<tr>
 						<th rowspan="2">#</th>
-						<th rowspan="2">Category</th>
-						<th colspan="2">Early Payment</th>
-						<th colspan="2">Regular</th>
+						<th rowspan="2" colspan="2">Category</th>
+						<th colspan="3" style="text-align: center;">Early Payment</th>
+						<th colspan="2" style="text-align: center;">Regular</th>
 					</tr>
 					<tr style="font-size: 12px;">
-						<th>International</th>
-						<th>Domestic</th>
-						<th>International</th>
-						<th>Domestic</th>
+						<th>Phase 1 (Feb 28, 2017)</th>
+						<th>Phase 2 (May 30, 2017)</th>
+						<th>Phase 3 (Aug 30, 2017)</th>
+						<th>Final (Oct 10, 2017)</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td>1</td>
-						<td>Speaker</td>
+						<td rowspan="2">1</td>
+						<td rowspan="2">Speaker</td>
+						<td>International</td>
 						<td>USD 250</td>
-						<td>IDR 2,000,000</td>
+						<td>USD 250</td>
+						<td>USD 250</td>
 						<td>USD 350</td>
+					</tr>
+					<tr>
+						<td>Domestic</td>
+						<td>IDR 2,000,000</td>
+						<td>IDR 2,000,000</td>
+						<td>IDR 2,000,000</td>
 						<td>IDR 3,000,000</td>
 					</tr>
 					<tr>
-						<td>2</td>
-						<td>IEEE Member Speaker</td>
+						<td rowspan="2">2</td>
+						<td rowspan="2">IEEE Member Speaker</td>
+						<td>International</td>
 						<td>USD 225</td>
-						<td>IDR 1,800,000</td>
+						<td>USD 225</td>
+						<td>USD 225</td>
 						<td>USD 315</td>
+					</tr>
+					<tr>
+						<td>Domestic</td>
+						<td>IDR 1,800,000</td>
+						<td>IDR 1,800,000</td>
+						<td>IDR 1,800,000</td>
 						<td>IDR 2,700,000</td>
 					</tr>
 					<tr>
 						<td>3</td>
 						<td>APTIKOM Member Speaker</td>
-						<td>-</td>
+						<td>Domestic</td>
 						<td>IDR 1,800,000</td>
-						<td>-</td>
+						<td>IDR 1,800,000</td>
+						<td>IDR 1,800,000</td>
 						<td>IDR 2,700,000</td>
 					</tr>
 					<tr>
-						<td>4</td>
-						<td>Next Paper</td>
+						<td rowspan="2">4</td>
+						<td rowspan="2">Next Paper</td>
+						<td>International</td>
 						<td>USD 100</td>
-						<td>IDR 1,000,000</td>
+						<td>USD 100</td>
+						<td>USD 100</td>
 						<td>USD 150</td>
+					</tr>
+					<tr>
+						<td>Domestic</td>
+						<td>IDR 1,000,000</td>
+						<td>IDR 1,000,000</td>
+						<td>IDR 1,000,000</td>
 						<td>IDR 1,500,000</td>
 					</tr>
 					<tr>
-						<td>5</td>
-						<td>Non-Speaker</td>
+						<td rowspan="2">5</td>
+						<td rowspan="2">Non-Speaker</td>
+						<td>International</td>
 						<td>USD 175</td>
-						<td>IDR 1,250,000</td>
+						<td>USD 175</td>
+						<td>USD 175</td>
 						<td>USD 200</td>
+					</tr>
+					<tr>
+						<td>Domestic</td>
+						<td>IDR 1,250,000</td>
+						<td>IDR 1,250,000</td>
+						<td>IDR 1,250,000</td>
 						<td>IDR 1,500,000</td>
 					</tr>
 				</tbody>
@@ -68,85 +101,97 @@
 			<b>IEEE & APTIKOM Member participants should input their Member ID</b>
 			<br>
 			<br>
-			<h4>Student Participants*</h4>
+			<h4>Student Participants</h4>
 			<table class="table table-hover">
 				<thead>
 					<tr>
 						<th rowspan="2">#</th>
-						<th rowspan="2">Category</th>
-						<th colspan="2">Early Payment</th>
-						<th colspan="2">Regular</th>
+						<th rowspan="2" colspan="2">Category</th>
+						<th colspan="3" style="text-align:center;">Early Payment</th>
+						<th colspan="2" style="text-align:center;">Regular</th>
 					</tr>
 					<tr style="font-size: 12px;">
-						<th>International</th>
-						<th>Domestic</th>
-						<th>International</th>
-						<th>Domestic</th>
+						<th>Phase 1 (Feb 28, 2017)</th>
+						<th>Phase 2 (May 30, 2017)</th>
+						<th>Phase 3 (Aug 30, 2017)</th>
+						<th>Final (Oct 10, 2017)</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td>1</td>
-						<td>Speaker</td>
+						<td rowspan="2">1</td>
+						<td rowspan="2">Speaker</td>
+						<td>International</td>
 						<td>USD 200</td>
-						<td>IDR 1,500,000</td>
+						<td>USD 200</td>
+						<td>USD 200</td>
 						<td>USD 300</td>
+					</tr>
+					<tr>
+						<td>Domestic</td>
+						<td>IDR 1,500,000</td>
+						<td>IDR 1,500,000</td>
+						<td>IDR 1,500,000</td>
 						<td>IDR 2,000,000</td>
 					</tr>
 					<tr>
-						<td>2</td>
-						<td style="padding-right: 40px;">IEEE Member Speaker</td>
+						<td rowspan="2">2</td>
+						<td rowspan="2" style="width: 195px;">IEEE Member Speaker*</td>
+						<td>International</td>
 						<td>USD 90</td>
-						<td>IDR 750,000</td>
+						<td>USD 90</td>
+						<td>USD 90</td>
 						<td>USD 150</td>
+					</tr>
+					<tr>
+						<td>Domestic</td>
+						<td>IDR 750,000</td>
+						<td>IDR 750,000</td>
+						<td>IDR 750,000</td>
 						<td>IDR 1,000,000</td>
 					</tr>
 					<tr>
-						<td>3</td>
-						<td>Next Paper</td>
+						<td rowspan="2">3</td>
+						<td rowspan="2">Next Paper</td>
+						<td>International</td>
 						<td>USD 100</td>
-						<td>IDR 1,000,000</td>
+						<td>USD 100</td>
+						<td>USD 100</td>
 						<td>USD 150</td>
+					</tr>
+					<tr>
+						<td>Domestic</td>
+						<td>IDR 1,000,000</td>
+						<td>IDR 1,000,000</td>
+						<td>IDR 1,000,000</td>
 						<td>IDR 1,500,000</td>
 					</tr>
 					<tr>
-						<td>4</td>
-						<td>Non-Speaker</td>
+						<td rowspan="2">4</td>
+						<td rowspan="2">Non-Speaker</td>
+						<td>International</td>
 						<td>USD 175</td>
-						<td>IDR 1,000,000</td>
+						<td>USD 175</td>
+						<td>USD 175</td>
 						<td>USD 200</td>
+					</tr>
+					<tr>
+						<td>Domestic</td>
+						<td>IDR 1,000,000</td>
+						<td>IDR 1,000,000</td>
+						<td>IDR 1,000,000</td>
 						<td>IDR 1,250,000</td>
 					</tr>
 				</tbody>
 			</table>
 			<b>IEEE Student participants should input their Student ID & IEEE Member ID</b>
-			<p>*IEEE Student Member will not get Seminar Kit</p>
+			<p>*) IEEE Student Member <b>will not</b> get Seminar Kit and USB</p>
 			<br>
 			<br>
-			<h4>Payment Information</h4>
-			Payment Should be made via bank transfer to the following:
-			<ul>
-				<li>Domestic (IDR) <br>Bank: <b>BNI Universitas Pendidikan Indonesia</b><br>Account Holder's Name: <b>NOVI SOFIA FITRIASARI</b><br>Account Number:<b> 0473648747</b></li>
-				<li>International Author (USD)<br>Bank: <b>BNI Universitas Pendidikan Indonesia</b><br>Account Holder's Name: <b>NOVI SOFIA FITRIASARI</b><br>Account Number: <b>0473649762</b></li>
-				<p>Swift Code : Bank Negara Indonesia (BNI) <b>BNINIDJA</b></p>
-			</ul>
-			<br>
-			<h4>Registration Note</h4>
-			<ul>
-				<li>Check your name spelling, because it will be used for the invitation letter/conference certificate.</li>
-				<li>Registartion fee included :
-					<ul>
-						<li>Seminar Kits</li>
-						<li>Access to all sessions in ICSITech 2017 including: Plenary Sessions, Conference Track Presentations, Conference Dinner: Awards and Information Exchange</li>
-						<li>Coffee Breaks, lunches, Dinner, and Conference proceeding (CD/USB).</li>
-					</ul>
-				</li>
-				<li>Registration fee <b>does not include accommodation</b></li>
-				<li>The Payment is non-refundable</li>
-			</ul>
+			
 		</div>
 		
-		<div class="col-md-4">
+		<div class="col-md-8">
 			<p class="papi">Form Register</p>
 			<hr style="margin-top:8px;">
 			<form action="#" method="post">
@@ -206,6 +251,29 @@
                  </div>
              </div>
          </form>
+		</div>
+		<div class="col-md-4">
+			<h4>Payment Information</h4>
+			Payment Should be made via bank transfer to the following:
+			<ul>
+				<li>Domestic (IDR) <br>Bank: <b>BNI Universitas Pendidikan Indonesia</b><br>Account Holder's Name: <b>NOVI SOFIA FITRIASARI</b><br>Account Number:<b> 0473648747</b></li>
+				<li>International Author (USD)<br>Bank: <b>BNI Universitas Pendidikan Indonesia</b><br>Account Holder's Name: <b>NOVI SOFIA FITRIASARI</b><br>Account Number: <b>0473649762</b></li>
+				<p>Swift Code : Bank Negara Indonesia (BNI) <b>BNINIDJA</b></p>
+			</ul>
+			<br>
+			<h4>Registration Note</h4>
+			<ul>
+				<li>Check your name spelling, because it will be used for the invitation letter/conference certificate.</li>
+				<li>Registartion fee included :
+					<ul>
+						<li>Seminar Kits</li>
+						<li>Access to all sessions in ICSITech 2017 including: Plenary Sessions, Conference Track Presentations, Conference Dinner: Awards and Information Exchange</li>
+						<li>Coffee Breaks, lunches, Dinner, and Conference proceeding (CD/USB).</li>
+					</ul>
+				</li>
+				<li>Registration fee <b>does not include accommodation</b></li>
+				<li>The Payment is non-refundable</li>
+			</ul>
 		</div>
 		</div>
  </div>

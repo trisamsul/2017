@@ -2,74 +2,11 @@
   <h1 class="head1">Committee</h1>
   <hr>
   <div class="ui styled accordion">
-    <div class="title active">
-      <i class="dropdown icon"></i>
-      Keynote Speakers
-    </div>
-	<div class="content active">
-      <div class="row">
-		<div class="col-md-3 col-sm-6">
-          <div class="thumbnail">
-            <img src="<?php echo base_url('assets/img/tsukasa.png'); ?>" alt="..." class="img-circle">
-            <div class="caption">
-              <center>
-                <h4>Prof. DR. Tsukasa Hirashima</h4>
-                <h5>Hiroshima University</h5>
-              </center>
-            </div>
-          </div>
-        </div>
-		<div class="col-md-9 col-sm-6">
-          <h4>Keynotes Title (TBA)</h4>
-		  <p align="justify">
-			TBA
-		  </p>
-        </div>
-      </div>
-	  <div class="row">
-		<div class="col-md-3 col-sm-6">
-          <div class="thumbnail">
-            <img src="<?php echo base_url('assets/img/Prof.Anton.jpg'); ?>" alt="..." class="img-circle">
-            <div class="caption">
-              <center>
-                <h4>Prof. DR. Anton Satria Prabuwono</h4>
-                <h5>King Abdulaziz University</h5>
-              </center>
-            </div>
-          </div>
-        </div>
-		<div class="col-md-9 col-sm-6">
-          <h4>Keynotes Title (TBA)</h4>
-		  <p align="justify">
-			TBA
-		  </p>
-        </div>
-      </div>
-	  <div class="row">
-		<div class="col-md-3 col-sm-6">
-          <div class="thumbnail">
-            <img src="<?php echo base_url('assets/img/Prof.Halimah2.jpg'); ?>" alt="..." class="img-circle">
-            <div class="caption">
-              <center>
-                <h4>Prof. DR. Halimah Badioze Zaman</h4>
-                <h5>Universiti Kebangsaan Malaysia</h5>
-              </center>
-            </div>
-          </div>
-        </div>
-		<div class="col-md-9 col-sm-6">
-          <h4>Keynotes Title (TBA)</h4>
-		  <p align="justify">
-			TBA
-		  </p>
-        </div>
-      </div>
-    </div>
-	<div class="title">
+	<div class="title active">
       <i class="dropdown icon"></i>
       Steering Committee
     </div>
-    <div class="content">
+    <div class="content active">
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">
@@ -87,7 +24,7 @@
             <img src="<?php echo base_url('assets/img/dwi.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
-                <h4>Prof. DR. Dwi Hendratmo W.</h4>
+                <h4>DR. Dwi Hendratmo W.</h4>
                 <h5>Institut Teknologi Bandung</h5>
               </center>
             </div>
@@ -483,7 +420,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/rasim2.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/rasimm.jpg'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Rasim</h4>
@@ -694,10 +631,10 @@
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/blank.png'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/krisna.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
-                <h4>Krisna Adhyarta</h4>
+                <h4>Krisna Adiyarta</h4>
                 <h5>Universitas Budi Luhur</h5>
               </center>
             </div>
