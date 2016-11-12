@@ -95,31 +95,41 @@
 				<a href="mailto:reservation@ghuniversal.com" class="email">reservation@ghuniversal.com</a><br>
 			</p>
 		</div>
-		
-		<div class="textHeading col-md-8">
+	</div>
+	<div class="row">	
+		<div class="textHeading col-md-12">
 			<h2 class="head2">Tourist Attraction in Bandung (distance from hotel)</h2>
-			<p>
-				<ol>
-					<li><b><a href="https://www.tripadvisor.com/Attraction_Review-g7187358-d9609025-Reviews-Farmhouse_Bandung-Lembang_West_Java_Java.html" class="link1">Farm House</a></b> | 3.3 KM (7 min)</li>
-					via Jl. Setiabudhi and Jl. Raya Lembang
-					<li><b><a href="https://www.tripadvisor.com/Attraction_Review-g297704-d1977196-Reviews-Elephant_Village-Bandung_West_Java_Java.html" class="link1">Kampung Gajah Wonderland</a></b> | 5.1 KM (13 min)</li>
-					via Jl. Setiabudhi and Jl. Sersan Bajuri
-					<li><b><a href="https://www.tripadvisor.com/Attraction_Review-g7187358-d4372938-Reviews-Bosscha_Observatory-Lembang_West_Java_Java.html" class="link1">Boscha Observatory</a></b> | 5.7 KM (15 min)</li>
-					via Jl. Setiabudhi and Jl. Raya Lembang
-					<li><b><a href="https://www.tripadvisor.com/Attraction_Review-g297704-d4473937-Reviews-Floating_Market_Lembang-Bandung_West_Java_Java.html" class="link1">Lembang Floating Market</a></b> | 6.4 KM (17 min)</li>
-					via Jl. Setiabudhi and Jl. Raya Lembang
-					<li><b><a href="https://www.tripadvisor.com/Attraction_Review-g297704-d1197101-Reviews-Museum_of_The_Asian_African_Conference-Bandung_West_Java_Java.html" class="link1">Museum of The Asian-African Conference</a></b> | 10.7 KM (27 min)</li>
-					via Jl. Setiabudhi
-					<li><b><a href="https://www.tripadvisor.com/Attraction_Review-g297704-d3257737-Reviews-Braga_Street-Bandung_West_Java_Java.html" class="link1">Braga Citywalk</a></b> | 12.0 KM (32 min)</li>
-					via Jl. Setiabudhi
-					<li><b><a href="https://www.tripadvisor.com/Attraction_Review-g7187358-d1010804-Reviews-Tangkuban_Perahu-Lembang_West_Java_Java.html" class="link1">Tangkuban Perahu Mountains</a></b> | 21.1 KM (43 min)</li>
-					via Jl. Tangkuban Perahu
-					<li><b><a href="#" class="link1">Kawah Putih</a></b> | 63.1 KM (2 h 6 min)</li>
-					via Jl. Raya Ciwidey
-				</ol>
-			</p>
+		</div>
+		<div class="textHeading col-md-6">
+			<ol>
+				<li><b><a href="https://www.tripadvisor.com/Attraction_Review-g7187358-d9609025-Reviews-Farmhouse_Bandung-Lembang_West_Java_Java.html" class="link1">Farm House</a></b> | 3.3 KM (7 min)</li>
+				via Jl. Setiabudhi and Jl. Raya Lembang
+				<li><b><a href="https://www.tripadvisor.com/Attraction_Review-g297704-d1977196-Reviews-Elephant_Village-Bandung_West_Java_Java.html" class="link1">Kampung Gajah Wonderland</a></b> | 5.1 KM (13 min)</li>
+				via Jl. Setiabudhi and Jl. Sersan Bajuri
+				<li><b><a href="https://www.tripadvisor.com/Attraction_Review-g7187358-d4372938-Reviews-Bosscha_Observatory-Lembang_West_Java_Java.html" class="link1">Boscha Observatory</a></b> | 5.7 KM (15 min)</li>
+				via Jl. Setiabudhi and Jl. Raya Lembang
+				<li><b><a href="https://www.tripadvisor.com/Attraction_Review-g297704-d4473937-Reviews-Floating_Market_Lembang-Bandung_West_Java_Java.html" class="link1">Lembang Floating Market</a></b> | 6.4 KM (17 min)</li>
+				via Jl. Setiabudhi and Jl. Raya Lembang
+			</ol>
+		</div>
+		<div class="textHeading col-md-6">
+			<ol start="5">
+				<li><b><a href="https://www.tripadvisor.com/Attraction_Review-g297704-d1197101-Reviews-Museum_of_The_Asian_African_Conference-Bandung_West_Java_Java.html" class="link1">Museum of The Asian-African Conference</a></b> | 10.7 KM (27 min)</li>
+				via Jl. Setiabudhi
+				<li><b><a href="https://www.tripadvisor.com/Attraction_Review-g297704-d3257737-Reviews-Braga_Street-Bandung_West_Java_Java.html" class="link1">Braga Citywalk</a></b> | 12.0 KM (32 min)</li>
+				via Jl. Setiabudhi
+				<li><b><a href="https://www.tripadvisor.com/Attraction_Review-g7187358-d1010804-Reviews-Tangkuban_Perahu-Lembang_West_Java_Java.html" class="link1">Tangkuban Perahu Mountains</a></b> | 21.1 KM (43 min)</li>
+				via Jl. Tangkuban Perahu
+				<li><b><a href="#" class="link1">Kawah Putih</a></b> | 63.1 KM (2 h 6 min)</li>
+				via Jl. Raya Ciwidey
+			</ol>
+		</div>
+	</div>
+	<div class="row">
+		<div class="textHeading col-md-12">
 			<h2 class="head2">Alternative Lodging Near the Venue</h2>
-			<p>
+		</div>
+		<div class="textHeading col-md-6">
 				<ol>
 					<li><a href="www.travellohotels.com" target="_blank" class="link1"><b>Travello Hotel Bandung</b></a></li>
 					<p>
@@ -153,7 +163,11 @@
 						Email : <a href="mailto:reservation@cipakugardenhotel.com" class="email">reservation@cipakugardenhotel.com</a><br>
 						Website : <a href="http://www.cipakugardenhotel.com/" target="_blank" class="link1">www.cipakugardenhotel.com</a>
 					</p>
-					<li><a href="http://www.cinnamonboutiquesyariah.com/" target="_blank" class="link1"><b>Hotel Hemangini</b></a></li>
+				</ol>
+		</div>
+		<div class="textHeading col-md-6">
+			<ol start="5">
+				<li><a href="http://www.cinnamonboutiquesyariah.com/" target="_blank" class="link1"><b>Hotel Hemangini</b></a></li>
 					<p>
 						Address : Jl.Setiabudhi No.66, Bandung<br>
 						Phone	: 022 – 2032110 / 022 - 82068666<br>
@@ -181,8 +195,7 @@
 						Email : <a href="mailto:bandung@banana-inn.com" class="email">bandung@banana-inn.com</a><br>
 						Website : <a href="http://banana-inn.com/" target="_blank" class="link1">banana-inn.com</a>
 					</p>
-				</ol>
-			</p>
+			</ol>
 		</div>
 	</div>
 	
