@@ -17,52 +17,64 @@
         <li data-target="#myCarousel" data-slide-to="12"></li>
         <li data-target="#myCarousel" data-slide-to="13"></li>
         <li data-target="#myCarousel" data-slide-to="14"></li>
+        <li data-target="#myCarousel" data-slide-to="15"></li>
+        <li data-target="#myCarousel" data-slide-to="16"></li>
+        <li data-target="#myCarousel" data-slide-to="17"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="<?php echo base_url('assets/img/first-carousel.jpg'); ?>" alt="First slide">
+		<div class="item active">
+          <img class="first-slide" src="<?php echo base_url('assets/img/first-carousel.jpg'); ?>" alt="First slide" style="width:100%;">
+        </div>
+		<div class="item">
+          <img class="first-slide" src="<?php echo base_url('assets/img/second-carousel.jpg'); ?>" alt="First slide" style="width:100%;">
         </div>
         <div class="item">
-          <img class="third-slide" src="<?php echo base_url('assets/img/carousel14.jpg'); ?>" alt="Third slide">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel1.jpg'); ?>" alt="Third slide" style="width:100%;">
         </div>
         <div class="item">
-          <img class="second-slide" src="<?php echo base_url('assets/img/carousel13.jpg'); ?>" alt="Second slide">
+          <img class="second-slide" src="<?php echo base_url('assets/img/carousel2.jpg'); ?>" alt="Second slide" style="width:100%;">
         </div>
         <div class="item">
-          <img class="third-slide" src="<?php echo base_url('assets/img/carousel5.jpg'); ?>" alt="Third slide">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel3.jpg'); ?>" alt="Third slide" style="width:100%;">
         </div>
 		<div class="item">
-          <img class="third-slide" src="<?php echo base_url('assets/img/carousel3.jpg'); ?>" alt="Third slide">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel4.jpg'); ?>" alt="Third slide" style="width:100%;">
         </div>
 		<div class="item">
-          <img class="third-slide" src="<?php echo base_url('assets/img/carousel2.jpg'); ?>" alt="Third slide">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel5.jpg'); ?>" alt="Third slide" style="width:100%;">
         </div>
 		<div class="item">
-          <img class="third-slide" src="<?php echo base_url('assets/img/carousel1.jpg'); ?>" alt="Third slide">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel6.jpg'); ?>" alt="Third slide" style="width:100%;">
         </div>
 		<div class="item">
-          <img class="third-slide" src="<?php echo base_url('assets/img/carousel4.jpg'); ?>" alt="Third slide">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel7.jpg'); ?>" alt="Third slide" style="width:100%;">
         </div>
 		<div class="item">
-          <img class="third-slide" src="<?php echo base_url('assets/img/carousel6.jpg'); ?>" alt="Third slide">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel8.jpg'); ?>" alt="Third slide" style="width:100%;">
         </div>
 		<div class="item">
-          <img class="third-slide" src="<?php echo base_url('assets/img/carousel11.jpg'); ?>" alt="Third slide">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel9.jpg'); ?>" alt="Third slide" style="width:100%;">
         </div>
 		<div class="item">
-          <img class="third-slide" src="<?php echo base_url('assets/img/carousel7.jpg'); ?>" alt="Third slide">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel10.jpg'); ?>" alt="Third slide" style="width:100%;">
         </div>
 		<div class="item">
-          <img class="third-slide" src="<?php echo base_url('assets/img/carousel8.jpg'); ?>" alt="Third slide">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel11.jpg'); ?>" alt="Third slide" style="width:100%;">
         </div>
 		<div class="item">
-          <img class="third-slide" src="<?php echo base_url('assets/img/carousel9.jpg'); ?>" alt="Third slide">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel12.jpg'); ?>" alt="Third slide" style="width:100%;">
         </div>
 		<div class="item">
-          <img class="third-slide" src="<?php echo base_url('assets/img/carousel10.jpg'); ?>" alt="Third slide">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel13.jpg'); ?>" alt="Third slide" style="width:100%;">
         </div>
 		<div class="item">
-          <img class="third-slide" src="<?php echo base_url('assets/img/carousel12.jpg'); ?>" alt="Third slide">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel14.jpg'); ?>" alt="Third slide" style="width:100%;">
+        </div>
+		<div class="item">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel15.jpg'); ?>" alt="Third slide" style="width:100%;">
+        </div>
+		<div class="item">
+          <img class="third-slide" src="<?php echo base_url('assets/img/carousel16.jpg'); ?>" alt="Third slide" style="width:100%;">
         </div>
 		
 		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -202,6 +214,9 @@
 						<p class="linephase" align="left">Conference Due<p>
 					</div>																										
 				</div>
+			</div>
+			<div class="col-md-4" style="margin-top: 20px;">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.2460755780944!2d107.59213921419189!3d-6.861084495041789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6b943c2c5ff%3A0xee36226510a79e76!2sUniversitas+Pendidikan+Indonesia+(UPI)!5e0!3m2!1sen!2sid!4v1479083057351" width="600" height="450" frameborder="0" style="border:0"  class="map1"></iframe>
 			</div>
 			<div class="col-md-4" style="margin-top: 20px;">
 				<div class="tc_div_64156" style="width:100%;height:auto;border:0px solid #C0C0C0"><a title="Conference in:" href="//www.tickcounter.com/widget/countdown/1508839200000/asia-bangkok/dhms/FFFFFF3B5998000000FF0000/0/C0C0C01/Conference_in%3A">Conference in:</a><a title="Countdown" href="https://www.tickcounter.com/">Countdown</a></div><script type="text/javascript">(function(){ var s=document.createElement('script');s.src="//www.tickcounter.com/loader.js";s.async='async';s.onload=function() { tc_widget_loader('tc_div_64156', 'Countdown', 650, ["1508925600000","asia-bangkok","dhms","FFFFFF3B5998000000FF0000","0","C0C0C01","Conference in:"]);};s.onreadystatechange=s.onload;var head=document.getElementsByTagName('head')[0];head.appendChild(s);}());</script>

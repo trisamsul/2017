@@ -7,7 +7,7 @@
 		<div class="col-md-12">
 			<h3 style="margin-top:5px;">Registration Fees</h3>
 			<h4>General Participants</h4>
-			<table class="table table-hover">
+			<table class="table">
 				<thead>
 					<tr>
 						<th rowspan="2">#</th>
@@ -41,7 +41,7 @@
 					</tr>
 					<tr>
 						<td rowspan="2">2</td>
-						<td rowspan="2">IEEE Member Speaker</td>
+						<td rowspan="2">IEEE Member Speaker*</td>
 						<td>International</td>
 						<td>USD 225</td>
 						<td>USD 225</td>
@@ -57,7 +57,7 @@
 					</tr>
 					<tr>
 						<td>3</td>
-						<td>APTIKOM Member Speaker</td>
+						<td>APTIKOM Member Speaker*</td>
 						<td>Domestic</td>
 						<td>IDR 1,800,000</td>
 						<td>IDR 1,800,000</td>
@@ -98,11 +98,11 @@
 					</tr>
 				</tbody>
 			</table>
-			<b>IEEE & APTIKOM Member participants should input their Member ID</b>
+			<b>*) IEEE & APTIKOM Member participants should input their Member ID</b>
 			<br>
 			<br>
 			<h4>Student Participants</h4>
-			<table class="table table-hover">
+			<table class="table">
 				<thead>
 					<tr>
 						<th rowspan="2">#</th>
@@ -136,7 +136,7 @@
 					</tr>
 					<tr>
 						<td rowspan="2">2</td>
-						<td rowspan="2" style="width: 195px;">IEEE Member Speaker*</td>
+						<td rowspan="2" style="width: 195px;">IEEE Member Speaker**</td>
 						<td>International</td>
 						<td>USD 90</td>
 						<td>USD 90</td>
@@ -184,8 +184,14 @@
 					</tr>
 				</tbody>
 			</table>
-			<b>IEEE Student participants should input their Student ID & IEEE Member ID</b>
-			<p>*) IEEE Student Member <b>will not</b> get Seminar Kit and USB</p>
+			<b>IEEE Student participants must input their Student ID</b><br><br>
+			<b>**) Must fulfill the following requirements :</b>
+			<ol>
+				<li><b>IEEE Student Member must input their Student ID and IEEE Member ID</b></li>
+				<li><b>IEEE Student Member must be the first author on the article</b></li>
+				<li><b>IEEE Student Member must present the article (not be replaced by another person)</b></li>
+				<li><b>IEEE Student Member will not get Seminar Kit and Conference USB</b></li>
+			</ol>
 			<br>
 			<br>
 			

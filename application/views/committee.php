@@ -78,7 +78,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/Rafal.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/rafal.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>DR. Rafal Drezewski</h4>
@@ -89,7 +89,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/rodziah.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/rodziah.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Prof. Rodziah Atan</h4>
@@ -102,7 +102,7 @@
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/rayner.jpeg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/rayner.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Prof. DR. Rayner Alfred</h4>
@@ -124,7 +124,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/chakraborty.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/chakraborty.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Prof. Goutam Chakraborty, Ph.D.</h4>
@@ -320,7 +320,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/eki.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/eki.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Eki Nugraha</h4>
@@ -352,7 +352,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/budi.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/budi.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Budi Laksono Putro</h4>
@@ -374,7 +374,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/heri.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/heri.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Heri Sutarno</h4>
@@ -387,7 +387,7 @@
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/wahyudin.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/wahyudin.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Wahyudin</h4>
@@ -398,7 +398,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/eka.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/eka.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Eka Fitrajaya Rahman</h4>
@@ -420,7 +420,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/rasimm.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/rasim.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Rasim</h4>
@@ -520,7 +520,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/ramadiani.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/ramadiani.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Ramadiani</h4>
@@ -544,7 +544,7 @@
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/gunawan.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/gunawan.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Gunawan Ariyanto</h4>
@@ -555,7 +555,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/aji.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/aji.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Aji Prasetyo</h4>
@@ -566,7 +566,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/umi.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/umi.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Ummi Raba'ah Hashim</h4>
@@ -585,7 +585,7 @@
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/haviluddin.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/haviluddin.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Haviluddin Sukirno</h4>
@@ -607,7 +607,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/hamdani.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/hamdani.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Hamdani</h4>
@@ -653,7 +653,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/oki.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/oki.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Oki Wicaksono</h4>
@@ -672,7 +672,7 @@
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/yaya.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/yaya.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Yaya Wihardi</h4>
@@ -683,7 +683,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/harsa.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/harsa.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Harsa Wara P.</h4>
@@ -713,7 +713,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/faisal.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/faisal.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Faisal Syaiful Anwar</h4>
@@ -724,7 +724,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/tri.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/tri.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Tri Samsul R</h4>
@@ -735,7 +735,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/feby.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/feby.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Febyana Ramadhanti</h4>
@@ -746,7 +746,7 @@
         </div>
                 <div class="col-md-3 col-sm-6">
           <div class="thumbnail">  
-            <img src="<?php echo base_url('assets/img/yuda.jpg'); ?>" alt="..." class="img-circle">
+            <img src="<?php echo base_url('assets/img/yuda.png'); ?>" alt="..." class="img-circle">
             <div class="caption">
               <center>
                 <h4>Yuda Wijaya</h4>

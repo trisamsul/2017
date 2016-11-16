@@ -5,7 +5,7 @@
       <div class="row">
 		<div class="col-md-4 col-sm-6">
           <div class="thumbnail">
-             <img src="<?php echo base_url('assets/img/tsukasa.jpg'); ?>" alt="..." class="img-rounded">
+             <img src="<?php echo base_url('assets/img/ks-tsukasa.jpg'); ?>" alt="..." class="img-rounded">
             <div class="caption">
               <center>
                 <a href="http://www.learning-engineering.com/tsukasa/tsukasa-hirashima" target="_blank"><h4>Prof. DR. Tsukasa Hirashima</h4></a>
@@ -15,16 +15,17 @@
           </div>
         </div>
 		<div class="col-md-8 col-sm-6">
-          <h4 style="text-align: left;color:black;""><b style="color:#FF5722;">Tentative Title:</b><br>EXTERNALIZATION OF THINKING TASK AND LEARNING ANALYTICS WITH PROCESS EVIDENCE</h4>
-          <h4 style="text-align: left;color:black;""><b style="color:#FF5722;">Abstract:</b><br>To Be Announced (TBA)</h4>
-		
+          <h4 style="text-align: left;color:black;"><b style="color:#FF5722;">Tentative Title:</b></h4>
+		  <p style="text-align: left; font-size: 16px;"><b>EXTERNALIZATION OF THINKING TASK AND LEARNING ANALYTICS WITH PROCESS EVIDENCE</b></p>
+          <h4 style="text-align: left; color:black;"><b style="color:#FF5722;">Abstract:</b><br></h4>
+		  <p  style="text-align: justify;">To Be Announced (TBA)</p>
         </div>
       </div>
       <hr id="ksdiv">
       <div class="row">
 			<div class="col-md-4 col-sm-6">
           <div class="thumbnail">
-             <img src="<?php echo base_url('assets/img/abdurrazaq.png'); ?>" alt="..." class="img-rounded">
+             <img src="<?php echo base_url('assets/img/ks-abdurrazaq.jpg'); ?>" alt="..." class="img-rounded">
             <div class="caption">
               <center>
                 <a href="#"><h4>Prof. DR. Abdurazzag Ali Aburas</h4></a>
@@ -34,16 +35,17 @@
           </div>
         </div>
 			<div class="col-md-8 col-sm-6">
-          <h4 style="text-align: left;color:black;""><b style="color:#FF5722;">Tentative Title:</b> <br>BIG DATA: REDUCTION NOT COMPRESSION</h4>
-          <h4 style="text-align: left;color:black;""><b style="color:#FF5722;">Abstract:</b><br>To Be Announced (TBA)</h4>
-
+			<h4 style="text-align: left;color:black;"><b style="color:#FF5722;">Tentative Title:</b></h4>
+		  <p style="text-align: left; font-size: 16px;"><b>BIG DATA: REDUCTION NOT COMPRESSION</b></p>
+          <h4 style="text-align: left; color:black;"><b style="color:#FF5722;">Abstract:</b><br></h4>
+		  <p  style="text-align: justify;">To Be Announced (TBA)</p>
         </div>
       </div>
       <hr id="ksdiv">      
 	  <div class="row">
 		<div class="col-md-4 col-sm-6">
           <div class="thumbnail">
-           <img src="<?php echo base_url('assets/img/Prof.Anton.jpg'); ?>" alt="..." class="img-rounded">
+           <img src="<?php echo base_url('assets/img/ks-anton.jpg'); ?>" alt="..." class="img-rounded">
             <div class="caption">
               <center>
                <a href="https://sites.google.com/a/eu4m.eu/dr-anton-satria-prabuwono/" target="_blank"><h4>Prof. DR. Anton Satria Prabuwono</h4></a>
@@ -53,15 +55,17 @@
           </div>
         </div>
 		<div class="col-md-8 col-sm-6">
-          <h4 style="text-align: left;color:black;"><b style="color:#FF5722;">Tentative Title: </b><br>To Be Announced (TBA) </h4>
-          <h4 style="text-align: left;color:black;"> <b style="color:#FF5722;">Abstract:</b><br>To Be Announced (TBA)</h4>
+          <h4 style="text-align: left;color:black;"><b style="color:#FF5722;">Tentative Title:</b></h4>
+		  <p style="text-align: left; font-size: 16px;"><b>To Be Announced (TBA)</b></p>
+          <h4 style="text-align: left; color:black;"><b style="color:#FF5722;">Abstract:</b><br></h4>
+		  <p  style="text-align: justify;">To Be Announced (TBA)</p>
         </div>
       </div>
       <hr id="ksdiv">
 	  <div class="row">
 		<div class="col-md-4 col-sm-6">
           <div class="thumbnail">
-             <img src="<?php echo base_url('assets/img/Prof.Halimah2.jpg'); ?>" alt="..." class="img-rounded">
+             <img src="<?php echo base_url('assets/img/ks-halimah.jpg'); ?>" alt="..." class="img-rounded">
             <div class="caption">
               <center>
                 <a href="#"><h4>Prof. DR. Halimah Badioze Zaman</h4></a>
@@ -71,15 +75,17 @@
           </div>
         </div>
 		<div class="col-md-8 col-sm-6">
-          <h4 style="text-align: left;color:black;"><b style="color:#FF5722;">Tentative Title: </b> <br>To Be Announced (TBA)</h4>
-          <h4 style="text-align: left;color:black;"><b style="color:#FF5722;">Abstract:</b><br>To Be Announced (TBA)</h4>
+          <h4 style="text-align: left;color:black;"><b style="color:#FF5722;">Tentative Title:</b></h4>
+		  <p style="text-align: left; font-size: 16px;"><b>To Be Announced (TBA)</b></p>
+          <h4 style="text-align: left; color:black;"><b style="color:#FF5722;">Abstract:</b><br></h4>
+		  <p  style="text-align: justify;">To Be Announced (TBA)</p>
         </div>
       </div>
       <hr id="ksdiv"> 
             <div class="row">
 			<div class="col-md-4 col-sm-6">
           <div class="thumbnail">
-             <img src="<?php echo base_url('assets/img/dwi.jpg'); ?>" alt="..." class="img-rounded">
+             <img src="<?php echo base_url('assets/img/ks-dwi.jpg'); ?>" alt="..." class="img-rounded">
             <div class="caption">
               <center>
                 <a href="https://www.stei.itb.ac.id/file/stei-script/dwi.html" title="" target="_blank"><h4>DR. Dwi Hendratmo</h4></a>
@@ -88,9 +94,11 @@
             </div>
           </div>
         </div>
-			<div class="col-md-8 col-sm-6">
-          <h4 style="text-align: left;color:black;"><b style="color:#FF5722;">Tentative Title: </b><br>To Be Announced (TBA) </h4>
-          <h4 style="text-align: left;color:black;"><b style="color:#FF5722;">Abstract:</b><br>To Be Announced (TBA)</h4>
+		<div class="col-md-8 col-sm-6">
+          <h4 style="text-align: left;color:black;"><b style="color:#FF5722;">Tentative Title:</b></h4>
+		  <p style="text-align: left; font-size: 16px;"><b>To Be Announced (TBA)</b></p>
+          <h4 style="text-align: left; color:black;"><b style="color:#FF5722;">Abstract:</b><br></h4>
+		  <p  style="text-align: justify;">To Be Announced (TBA)</p>
         </div>
       </div>
 	</div>

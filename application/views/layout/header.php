@@ -1,10 +1,18 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="ICSITECH, The 3rd International Conference on Science in IT.">
+	<meta name="robots" content="index, follow">	
+	<meta name="author" content="Webmaster Team, ICSITech 2017">	
+        <meta name="keywords" content="big data, ieee big data, big data initiative, ieee, big data analytics, storage, data, data processing, data privacy, data security, data science, data scientists, big data education, big data conferences, big data publications, big data standards, big data technical community, workshop, seminar, education, information technology, data science conference, 2017 ieee conference, ieee conference, ieee conference in indonesia, big data era" />
+        <meta name="keywords" content="big data 2017, ieee big data 2017, big data initiative 2017, ieee 2017, big data analytics 2017, storage 2017, data 2017, data processing 2017, data privacy 2017, data security 2017, data science 2017, data scientists 2017, big data education 2017, big data conferences 2017, big data publications 2017, big data standards 2017, big data technical community 2017, workshop 2017, seminar 2017, education 2017, information technology 2017, data science conference 2017" />
+        <meta name="keywords" content="ICSITech 2017, international conference, science education, learning conference, ristek conference, universitas pendidikan indonesia, ilmu komputer, data mining, data warehouse" >
+
+
 	<link rel="icon" href="<?php echo base_url('assets/img/favicon.png'); ?>">
 	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/bootstrap.min.css"); ?>">
@@ -75,7 +83,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			        <!-- <li class="pull-left"><a href="#">Dashboard</a></li> -->
 			        <li class="divider"><a href="http://icsitech.org/">HOME</a></li>
 			        <li class="delimiter"><a onclick="return false;">//</a></li>
-			        <li class="divider"><a href="<?php echo site_url('Committee/keynote'); ?>">KEYNOTE SPEAKERS</a></li>
+			        <li class="divider"><a href="<?php echo site_url('Committee/Keynote'); ?>">KEYNOTE SPEAKERS</a></li>
 	  		        <li class="delimiter"><a>//</a></li>
 			        <li class="divider"><a href="<?php echo site_url('Committee/'); ?>">COMMITTEES</a></li>
 	  		        <li class="delimiter"><a>//</a></li>
