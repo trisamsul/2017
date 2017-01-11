@@ -75,10 +75,12 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '',
-	'username' => '',
+	'hostname' => 'localhost',
+	// 'username' => 'icsitec1_u2017',
+	'username' => 'root',
+	// 'password' => 'g3gyuam5miub',
 	'password' => '',
-	'database' => '',
+	'database' => 'icsitec1_icsitech2017',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

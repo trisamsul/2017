@@ -20,14 +20,18 @@ class Committee extends CI_Controller {
 	 */
 	public function index()
 	{
+		$data['revleft'] = $this->ModelCommittee->selectAll(77,0)->result_array();
+		$data['revright'] = $this->ModelCommittee->selectAll(100,77)->result_array();
+		// var_dump($data['revleft']);
+		// var_dump($data['revright']);
 		$this->load->view('layout/header');
-		$this->load->view('committee');
+		$this->load->view('committee',$data);
 		$this->load->view('layout/footer');
 	}
 
-        public function keynote(){
+   public function keynote(){
 		$this->load->view('layout/header');
 		$this->load->view('ks');
 		$this->load->view('layout/footer');
-        }
+   }
 }
