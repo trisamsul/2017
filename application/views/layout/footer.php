@@ -24,7 +24,7 @@
 				<p class="icsi-text-second-head" style="color:white;">October 25-26, 2017 <i style="font-weight:500;">//</i> Bandung, Indonesia</p>
 			</div>
 			<div class="col-md-4 col-md-offset-1" id="utilityfoot">
-				<p style="color:white; font-size:15px;">Departement of Computer Science Education <br><b>UNIVERSITAS PENDIDIKAN INDONESIA</b><br>
+				<p style="color:white; font-size:15px;">Department of Computer Science Education <br><b>UNIVERSITAS PENDIDIKAN INDONESIA</b><br>
 				Setiabudhi Street no.229, Bandung, West Java, Indonesia <br>Email : info@icsitech.org <br>CP : Lala Septem Riza <br>Phone : +62812-3450-9109</p>
 			</div>
 	</div>

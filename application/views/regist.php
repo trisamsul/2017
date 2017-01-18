@@ -1,3 +1,13 @@
+<?php 
+	if(isset($m)){
+		if($m == 1){
+			echo "<script type='text/javascript'>alert('Thanks for signing up, welcome to the conference');</script>";
+		}else{
+			echo "<script type='text/javascript'>alert('Failed please try again.');</script>";
+		}
+	} 
+	// var_dump($m);
+?>
 <link rel="stylesheet" type="text/css" href="assets/css/contact.css" />
 <link rel="stylesheet" href="<?php echo base_url('assets/css/main.css'); ?>">
 <div class="container con950">
@@ -200,10 +210,10 @@
 		<div class="col-md-8">
 			<p class="papi">Form Register</p>
 			<hr style="margin-top:8px;">
-			<form action="#" method="post">
+			<?php echo form_open_multipart('Registration/onSubmit'); ?>
              <div class="row">
                  <div class="form-group col-lg-12 col-md-12 col-sm-12 slideanim">
-                     <input type="text" class="form-control first-name" name="fullname" placeholder="Full Name" required/>
+                     <input type="text" class="form-control first-name" name="name" placeholder="Full Name" required/>
                  </div>
                  <div class="form-group col-lg-12 col-md-12 col-sm-12 slideanim">
                      <input type="text" class="form-control last-name" name="affiliation" placeholder="Affiliation" required/>
@@ -212,16 +222,16 @@
                      <input type="tel" class="form-control mail" name="phone" placeholder="Phone" required/>
                  </div>
                  <div class="form-group col-lg-12 col-md-12 col-sm-12 slideanim">
-                     <input type="email" class="form-control pno" name="mail" placeholder="Email" required/>
+                     <input type="email" class="form-control pno" name="email" placeholder="Email" required/>
                  </div>
                   <div class="form-group col-lg-12 col-md-12 col-sm-12 slideanim">
                      <input type="text" class="form-control pno" name="paperid" placeholder="Paper ID" required/>
                  </div>
                  <div class="form-group col-lg-12 col-md-12 col-sm-12 slideanim">
-                     <input type="text" class="form-control pno" name="title" placeholder="Paper Title" required/>
+                     <input type="text" class="form-control pno" name="papertitle" placeholder="Paper Title" required/>
                  </div>
                  <div class="form-group col-lg-12 col-md-12 col-sm-12 slideanim">
-					 <select name="categories" class="form-control" style="border-radius: 0px; height: 65px; border: 1px solid #000; font-size: 18px; padding-left: 15px;" required>
+					 <select name="category" class="form-control" style="border-radius: 0px; height: 65px; border: 1px solid #000; font-size: 18px; padding-left: 15px;" required>
 					   <option value="" disabled selected>Categories</option>
 					   <optgroup label="-General-">
 					   <option value="gsp">Speaker</option>
@@ -238,20 +248,19 @@
 				 </div>
 				 <div class="form-group col-lg-12 col-md-12 col-sm-12 slideanim">
 				 <b>For IEEE Student Member</b>
-                     <input type="text" class="form-control pno" name="title" placeholder="Student ID"/>
+                     <input type="text" class="form-control pno" name="studentid" placeholder="Student ID"/>
                  </div>
 				 <div class="form-group col-lg-12 col-md-12 col-sm-12 slideanim">
 				 <b>For IEEE & APTIKOM Member</b>
-                     <input type="text" class="form-control pno" name="title" placeholder="Member ID"/>
+                     <input type="text" class="form-control pno" name="ieeeid" placeholder="Member ID"/>
                  </div>
                  <div class="form-group col-lg-12 col-md-12 col-sm-12 slideanim">
                  		<b>Payment Document</b>
-                     <input type="file" class="form-control" name="title" placeholder="Document" required/>
+                     <input type="file" class="form-control" name="payment" placeholder="Document" required/>
                  </div>                                   
                  <div class="clearfix"></div>
                  <div class="form-group col-lg-12 slideanim">
                  		<center>
-                 			
                      <button type="submit" class="btn btn-lg btn-outline">Submit</button>
                  		</center>
                  </div>

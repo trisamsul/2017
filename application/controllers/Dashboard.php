@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Committee extends CI_Controller {
+class Dashboard extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,18 +20,8 @@ class Committee extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['revleft'] = $this->ModelCommittee->selectAll(77,0)->result_array();
-		$data['revright'] = $this->ModelCommittee->selectAll(100,77)->result_array();
-		// var_dump($data['revleft']);
-		// var_dump($data['revright']);
-		$this->load->view('layout/header');
-		$this->load->view('committee',$data);
-		$this->load->view('layout/footer');
+		$this->load->view('dashboard/layout/header');
+		$this->load->view('dashboard/main');
+		$this->load->view('dashboard/layout/footer');
 	}
-
-   public function keynote(){
-		$this->load->view('layout/header');
-		$this->load->view('ks');
-		$this->load->view('layout/footer');
-   }
 }

@@ -13,7 +13,7 @@
 				    <li>The paper must conform to the standard of <b><a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html" title="" target="_blank"class="link1">IEEE Manuscript Templates for Conference Proceedings</a></b>.</li>
 				    <li>All review processes are blind peer-reviews.</li>
 				    <li>Non-presented papers will be pulled from submission to IEEE Xplore.</li>
-				    <li>Full paper must be submitted through <a href="https://edas.info/N23104" title="" target="_blank"class="link1"><b>EDAS</b></a> System.</li>
+				    <li>Full paper must be submitted through EDAS System (<a href="https://edas.info/N23104" title="" target="_blank"class="link1"><b>http://edas.info/N23104</b></a>). Please make sure the link followed by the conference code in <b>EDAS: N23104</b>.</li>
 				    <li>Please contact <a href="mailto:info@icsitech.org" class="email">info@icsitech.org</a> and/or <a href="mailto:lala.s.riza@upi.edu" class="email">lala.s.riza@upi.edu</a>, <a href="mailto:andri.pranolo.id@ieee.org" class="email">andri.pranolo.id@ieee.org</a> with the questions.</li>
 				</ol>
 			<li><b>FINAL SUBMISSION</b> for <b>ACCEPTED PAPERS,</b> please do the following steps:</li>

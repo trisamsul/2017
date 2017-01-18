@@ -13,6 +13,18 @@
 				<img src="<?php echo base_url('assets/img/icon_pdf.jpg'); ?>" >
 				<a class="link1" href="<?php echo base_url('assets/file/ReviewerForm.pdf'); ?>" target="_blank">ICSITech 2017 Reviewer Form</a>
 			</li>
+			<li>
+				<img src="<?php echo base_url('assets/img/icon_img.jpg'); ?>" >
+				<a class="link1" href="<?php echo base_url('assets/file/ICSITech-2017-Header.jpg'); ?>" target="_blank">ICSITech 2017 Header</a>
+			</li>
+			<li>
+				<img src="<?php echo base_url('assets/img/icon_img.jpg'); ?>" >
+				<a class="link1" href="<?php echo base_url('assets/file/ICSITech-2017-Header-Theme.jpg'); ?>" target="_blank">ICSITech 2017 Header Theme</a>
+			</li>
+			<li>
+				<img src="<?php echo base_url('assets/img/icon_pdf.jpg'); ?>" >
+				<a class="link1" href="<?php echo base_url('assets/file/ICSITech2017-1stPhaseCallForPapers.pdf'); ?>" target="_blank">ICSITech 2017 - IEEE - 1st Phase Call For Papers</a>
+			</li>
 		  </ul>
 		</div>
 		
