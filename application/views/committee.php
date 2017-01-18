@@ -154,99 +154,16 @@
       <div class="row">
         <div class="col-md-6 col-sm-6">
           <ul>
-            <li><h5><i>Abderrafiaa Koukam</i> (UTBM, France) </h5></li>
-
-              <li><h5><i>Ag Asri Ag Ibrahim</i> (Universiti Malaysia Sabah, Malaysia)</h5></li>
-              <li><h5><i>Agus Harjoko</i> (Universitas Gadjah Mada)</h5></li>   
-              <li><h5><i>Anca Ralescu</i> (University of Cincinnati Ohio, USA)</h5></li>  
-              <li><h5><i>Anton Satria Prabuwono</i> (King Abdulaziz University, Saudi Arabia)</h5></li>   
-              <li><h5><i>Arda Yunianta</i> (Universitas Mulawarman)</h5></li>   
-              <li><h5><i>Azhari SN</i> (Universitas Gadjah Mada)</h5></li>  
-              <li><h5><i>Azuraliza Abu Bakar</i> (Universiti Kebangsaan Malaysia, Malaysia)</h5></li>   
-              <li><h5><i>Chin Kim On</i> (Universiti Malaysia Sabah, Malaysia)</h5></li>  
-                <li><h5><i>Danial Hooshyar</i> (Korea University)</h5></li>   
-                <li><h5><i>Dewi Octaviani</i> (Universiti Teknologi Malaysia)</h5></li>   
-                <li><h5><i>Didi Rosiyadi</i> (Research Center for Informatics LIPI)</h5></li>   
-                <li><h5><i>Edi Kurniawan</i> (Research Center for Informatics LIPI)</h5></li>      
-                <li><h5><i>Esa Prakasa</i> (Research Center for Informatics LIPI)</h5></li>   
-                <li><h5><i>Fajar Suryawan</i> (Universitas Muhammadiyah Surakarta)</h5></li>  
-                <li><h5><i>Ford Lumban Gaol</i> (IEEE Indonesia Section)</h5></li>
-                <li><h5><i>Gunawan Ariyanto</i> (Universitas Muhammadiyah Surakarta)</h5></li>
-                <li><h5><i>Hamzah Bin Ahmad</i> (Universiti Malaysia Pahang)</h5></li>
-                <li><h5><i>Hanung Adi Nugroho</i> (Universitas Gadjah Mada)</h5></li>
-                <li><h5><i>Heru Supriyono</i> (Universitas Muhammadiyah Surakarta)</h5></li>
-                <li><h5><i>Herlina Jayadianti</i> (UPN Veteran Yogyakarta)</h5></li>
-                <li><h5><i>Hidayah Rahmalan</i> (Universiti Teknikal Malaysia Melaka)</h5></li>
-                <li><h5><i>Husni Thamrin</i> (Universitas Muhammadiyah Surakarta)</h5></li>
-                <li><h5> <i>Igi Ardiyanto</i> (Universitas Gadjah Mada)</h5></li>
-                <li><h5><i>I Wayan Mustika</i> (IEEE Indonesia Section)</h5></li>
-                <li><h5><i>Intan Ermahani A. Jalil</i> Universiti Teknikal Malaysia Melaka</h5></li>
-                <li><h5><i>Ito Wasito</i> (Universitas Indonesia)</h5></li>
-                <li><h5><i>Iwan Tri Riyadi Yanto</i> (Universitas Ahmad Dahlan)</h5></li>
-                <li><h5><i>Kamarul Hawari Bin Ghazali</i> (Universiti Malaysia Pahang)</h5></li>
-                <li><h5><i>Lala Septem Riza</i> (Universitas Pendidikan Indonesia)</h5></li>
-                <li><h5><i>Lau Hui Keng</i> (Universiti Malaysia Sabah)</h5></li>
-                <li><h5><i>Lian Duan</i> (New Jersey Institute of Technology, USA)</h5></li>
-                <li><h5><i>Khabib Mustofa</i> (Universitas Gadjah Mada)</h5></li>
-                <li><h5><i>Masayu Leylia Khodra</i> (Institut Teknologi Bandung)</h5></li>
-                <li><h5><i>Mohd Hanafi Ahmad Hijazi</i> (Universiti Malaysia Sabah)</h5></li>
-                <li><h5><i>Mohd Shahizan Bin Othman</i> (Universiti Teknologi Malaysia)</h5></li>
-                <li><h5><i>Moslem Yousefi</i> (UNITEN, Malaysia)</h5></li>
-                <li><h5><i>Mohammad Syafrullah</i> (Universitas Budi Luhur, Jakarta)</h5></li>
-                <li><h5><i>Munir</i> (Universitas Pendidikan Indonesia)</h5></li>
-                <li><h5><i>Mustafa Kaiiali</i> (Mevlana University, Turkey)</h5></li>
-                <li><h5><i>Nataniel Dengen</i> (Universitas Mulawarman)</h5></li>
-                <li><h5><i>Nita Solehati</i> (Chonbuk National University)</h5></li>
-                <li><h5><i>Noel Lopes</i> (Polytechnic of Guarda, Portugal)</h5></li>
-
-
+            <?php foreach($revleft as $left){
+                echo "<li><h5><i>".$left['sci_com_name']."</i> (".$left['sci_com_aff'].") </h5></li>";
+              } ?>
           </ul> 
         </div>
-
         <div class="col-md-6 col-sm-6">
           <ul>
-                <li><h5><i>Nor Haslinda binti Ismail</i> Universiti Teknikal Malaysia Melaka</h5></li>
-                <li><h5><i>Nurgiyatna</i> (Universitas Muhammadiyah Surakarta)</h5></li>
-                <li><h5><i>Omar Al Jadaan</i> (MHSU, United Arab Emirates)</h5></li>
-                <li><h5><i>Omid Motlagh</i> (CSIRO, Australia)</h5></li>
-                <li><h5><i>Ouri Wolfson</i> (University of Illinois, USA)</h5></li>
-                <li><h5><i>Paulus Insap Santosa</i> (Universitas Gadjah Mada)</h5></li>
-                <li><h5><i>Per Johan Runeson</i> (Systems Lund University, Sweden)</h5></li>
-                <li><h5><i>Rafah Mohamed Almuttairi</i> (University of Babylon, Iraq)</h5></li>
-                <li><h5><i>Rafał Dreżewski</i> (AGH UST, Poland)</h5></li>
-                <li><h5><i>Ramadiani</i> (Universitas Mulawarman)</h5></li>
-                <li><h5><i>Prof. Rayner Alfred, Ph.D.</i> (Universiti Malaysia Sabah)</h5></li>
-                <li><h5><i>Reza Pulungan</i> (Universitas Gadjah Mada)</h5></li>
-                <li><h5><i>Rimba Widhiana Ciptasari, S.Si, M.T., Ph.D</i> (Telkom University, Indonesia)</h5></li>
-                <li><h5><i>Rinaldi Munir</i> (Institut Teknologi Bandung)</h5></li>
-                <li><h5><i>Riyanarto Sarno</i> (Institut Teknologi Sepuluh Nopember)</h5></li>
-                <li><h5><i>Rusli Abdullah</i> (Universiti Putra Malaysia)</h5></li>
-                <li><h5><i>Rodina binti Ahmad</i> (Universiti Malaya)</h5></li>
-                <li><h5><i>Rodziah Atan</i> (Universiti Putra Malaysia)</h5></li>
-                <li><h5><i>Ronny Mardiyanto</i> (Institut Teknologi Sepuluh Nopember)</h5></li>
-                <li><h5><i>Rusydi Umar</i> (Universitas Ahmad Dahlan)</h5></li>
-                <li><h5><i>Sarina Sulaiman</i> (Universiti Teknologi Malaysia)</h5></li>
-                <li><h5><i>Shaik Shakeel Ahamad</i> (K.G. RCET, Hyderabad, India)</h5></li>
-                <li><h5><i>Shi-Jinn Horng</i> (NUST, Taiwan)</h5></li>
-                <li><h5><i>Siti Mariyam Shamsuddin</i> (Universiti Teknologi Malaysia)</h5></li>
-                <li><h5><i>Siti Sophiayati Yuhaniz</i> (Universiti Teknologi Malaysia)</h5></li>
-                <li><h5><i>Songhoua Xu</i> (New Jersey Institute of Technology, USA)</h5></li>
-                <li><h5><i>Sri Kusumadewi</i> (UII, Indonesia)</h5></li>
-                <li><h5><i>Sultan Noman Qasem</i> (Taiz University, Arab Saudi)</h5></li>
-                <li><h5><i>Sunu Wibirama</i> (Universitas Gadjah Mada)</h5></li>
-                <li><h5><i>Teguh Bharata Adji</i> (Universitas Gadjah Mada)</h5></li>
-                <li><h5><i>Teo Susnjak</i> (Massey University, New Zealand)</h5></li>
-                <li><h5><i>Tony Dwi Susanto</i> (Institut Teknologi Sepuluh Nopember)</h5></li>
-                <li><h5><i>Ummi Rabaah Hashim</i> (Universiti Teknikal Malaysia Melaka)</h5></li>
-                <li><h5><i>Waleed Ali Ahmed Abdullah</i> (King Abdul Aziz University, Arab Saudi)</h5></li>
-                <li><h5><i>Wendi Usino</i> (Universitas Budi Luhur, Jakarta)</h5></li>
-                <li><h5><i>Zuwairie Bin Ibrahim</i> (Universiti Malaysia Pahang)</h5></li>
-                <li><h5><i>Ade Gafar Abdullah</i> (Universitas Pendidikan Indonesia)</h5></li>
-                <li><h5><i>Didin Wahyudin</i> (Universitas Pendidikan Indonesia)</h5></li>
-                <li><h5><i>Alejandro Rosales</i> (INAOE, Puebla, Mexico)</h5></li>
-                <li><h5><i>Nurul Amelina Nasharuddin</i> (Universiti Putra Malaysia)</h5></li>
-                <li><h5><i>Maman Abdurohman</i> (Telkom University, Indonesia)</h5></li>
-                <li><h5><i>Wawan Setiawan</i> (Universitas Pendidikan Indonesia)</h5></li>
+           <?php foreach($revright as $right){
+              echo "<li><h5><i>".$right['sci_com_name']."</i> (".$right['sci_com_aff'].") </h5></li>";
+            } ?>
           </ul>
         </div>                        
       </div>

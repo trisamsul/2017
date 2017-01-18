@@ -145,21 +145,23 @@
 				  </table>
 				</div>
 				
-				<p>Selected papers will be invited to be revised/modified and extended for the post-conference publication in the one of the following journals : <a href="http://www.home.ijasca.com/" class="link1" target="_blank">International Journal of Advances in Soft Computing and its applications</a> (ISSN: 2074-8523, SCOPUS indexed), and  <a href="http://journals.itb.ac.id/index.php/jictra" class="link1" target="_blank">Journal of ICT Research and Applications</a> (ISSN: 2337-5787, SCOPUS indexed).</p><br><br>
+				<p>Selected papers will be invited to be revised/modified and extended for the post-conference publication in the one of the following journals : <a href="http://www.home.ijasca.com/" class="link1" target="_blank">International Journal of Advances in Soft Computing and Its Applications</a> (ISSN: 2074-8523, SCOPUS indexed), and  <a href="http://journals.itb.ac.id/index.php/jictra" class="link1" target="_blank">Journal of ICT Research and Applications</a> (ISSN: 2337-5787, SCOPUS indexed).</p><br><br>
 			</div>
 			<div class="col-md-4">
 				<h3 class="righttitle">Important Dates</h3>
 				<hr>
 				<div id="owl-id">
+					<!--
 					<div class="item">
 						<p class="phase">Phase I</p>
-						<p class="datephase">Desember 30, 2016</p>
-						<p class="linephase" align="left">Deadline for paper submission<p>
+						<p class="datephase"><strike>Desember 30, 2016</strike></p>
+						<p class="linephase" align="left"><strike>Deadline for paper submission</strike><p>
 						<p class="datephase">January 31, 2017</p>
 						<p class="linephase" align="left">Notification of accepted paper<p>
 						<p class="datephase">February 28, 2017</p>
 						<p class="linephase" align="left">Deadline for Camera Ready Paper<p>										
 					</div>
+					-->
 					<div class="item">
 						<p class="phase">Phase II</p>
 						<p class="datephase">February 28, 2017</p>
@@ -169,7 +171,7 @@
 						<p class="datephase">May 30, 2017</p>
 						<p class="linephase" align="left">Deadline for Camera Ready Paper<p>
 					</div>
-                <div class="item">
+                			<div class="item">
 						<p class="phase">Phase III</p>
 						<p class="datephase">May 30, 2017</p>
 						<p class="linephase" align="left">Deadline for paper submission<p>
@@ -177,6 +179,15 @@
 						<p class="linephase" align="left">Notification of accepted paper<p>
 						<p class="datephase">August 30, 2017</p>
 						<p class="linephase" align="left">Deadline for Camera Ready Paper<p>
+					</div>
+					<div class="item">
+						<p class="phase">Phase I</p>
+						<p class="datephase"><strike>Desember 30, 2016</strike></p>
+						<p class="linephase" align="left"><strike>Deadline for paper submission</strike><p>
+						<p class="datephase">January 31, 2017</p>
+						<p class="linephase" align="left">Notification of accepted paper<p>
+						<p class="datephase">February 28, 2017</p>
+						<p class="linephase" align="left">Deadline for Camera Ready Paper<p>										
 					</div>
 					<!--
                                         <div class="item">
@@ -312,7 +323,7 @@
 			</div>
 			<div class="col-md-4" style="margin-top: 20px;">
 				<!-- BEGIN: Powered by Supercounters.com -->
-				<script type="text/javascript" src="http://widget.supercounters.com/flag.js"></script><script type="text/javascript">sc_flag(1329342,"FFFFFF","000000","cccccc",2,20,0,0)</script><br><noscript><a href="http://www.supercounters.com/">Flag Counter</a></noscript>
+				<script type="text/javascript" src="http://widget.supercounters.com/flag.js"></script><script type="text/javascript">sc_flag(1329342,"FFFFFF","000000","cccccc",4,100,0,0)</script><br><noscript><a href="http://www.supercounters.com/">Flag Counter</a></noscript>
 				
 				<!-- END: Powered by Supercounters.com -->
 			</div>
@@ -354,17 +365,17 @@
 					<p align="center" class="scuniv">Universiti Malaya</p>
 				</div>
 				<div class="item">
-					<img src="<?php echo base_url('assets/img/Rafal.jpg'); ?>" alt="" class="img-circle figure" align="center"><br>
+					<img src="<?php echo base_url('assets/img/rafal.png'); ?>" alt="" class="img-circle figure" align="center"><br>
 					<p class="bold scname" align="center">DR. Rafal Drezewski</p>
 					<p align="center" class="scuniv">AGH University of Science and Technology</p>
 				</div>
 				<div class="item">
-					<img src="<?php echo base_url('assets/img/rodziah.jpg'); ?>" alt="" class="img-circle figure" align="center"><br>
+					<img src="<?php echo base_url('assets/img/rodziah.png'); ?>" alt="" class="img-circle figure" align="center"><br>
 					<p class="bold scname" align="center">Prof. Rodziah Atan</p>
 					<p align="center" class="scuniv">Universiti Putra Malaysia</p>
 				</div>				
 				<div class="item">
-					<img src="<?php echo base_url('assets/img/rayner.jpeg'); ?>" alt="" class="img-circle figure" align="center"><br>
+					<img src="<?php echo base_url('assets/img/rayner.png'); ?>" alt="" class="img-circle figure" align="center"><br>
 					<p class="bold scname" align="center">Prof. DR. Rayner Alfred</p>
 					<p align="center" class="scuniv">Universiti Malaysia Sabah</p>
 				</div>																															
@@ -374,7 +385,7 @@
 					<p align="center" class="scuniv">Korea University</p>
 				</div>																														
 				<div class="item">
-					<img src="<?php echo base_url('assets/img/chakraborty.jpg'); ?>" alt="" class="img-circle figure" align="center"><br>
+					<img src="<?php echo base_url('assets/img/chakraborty.png'); ?>" alt="" class="img-circle figure" align="center"><br>
 					<p class="bold scname" align="center">Prof. Goutam Chakraborty, Ph.D.</p>
 					<p align="center" class="scuniv">Iwate Prefectural University</p>
 				</div>
@@ -405,7 +416,7 @@
 					</p>
 				</div>
 				<div class="item">
-					<img src="<?php echo base_url('assets/img/abdurrazaq.png'); ?>" alt="" class="img-circle imgks" align="center">
+					<img src="<?php echo base_url('assets/img/ks-abdurrazaq.jpg'); ?>" alt="" class="img-circle imgks" align="center">
 					<p class="bold ksname white" align="center">Prof. DR. Abdurazzag Ali Aburas</p>
 					<p class="ksuniv white" align="center">
 						Tecnologico De Monterey, Mexico
@@ -445,7 +456,7 @@ Universiti Kebangsaan Malaysia
 			<div class="row">
 				
 				<div class="col-md-3" style="">				
-					<a href="http://ieee.id/" target="_blank"><img src="<?php echo base_url('assets/img/ieeei3.png'); ?>" alt="" style="height:136px;"></a>
+					<a href="http://ieee.id/" target="_blank"><img src="<?php echo base_url('assets/img/ieeei3.png'); ?>" alt="" style="height:150px;"></a>
 				</div>
 				
 				<div class="col-md-5" style="">				
@@ -453,22 +464,23 @@ Universiti Kebangsaan Malaysia
 					<a href="http://www.upnyk.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/upn.png'); ?>" alt="" style="width:72px;"></a>
                     <a href="http://www.unmul.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/unmul.png'); ?>" alt="" style="width:70px;"></a>
 					<a href="http://www.ums.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/ums.png'); ?>" alt="" style="width:72px;"></a>
-					<a href="http://www.ums.edu.my/" target="_blank"><img src="<?php echo base_url('assets/img/umsa.png'); ?>" alt="" style="width:72px;"></a>
+					<a href="http://www.ums.edu.my/" target="_blank"><img src="<?php echo base_url('assets/img/umsa.png'); ?>" alt="" style="width:70px;"></a>
 					<a href="http://www.budiluhur.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/ubl.png'); ?>" alt="" style="width:72px;"></a>
 					<a href="https://uad.ac.id/" target="_blank"><img src="<?php echo base_url('assets/img/uad.png'); ?>" alt="" style="width:72px;"></a>
 					<a href="#" target="_blank"><img src="<?php echo base_url('assets/img/bdc.png'); ?>" alt="" style="width:72px;"></a>
 					<a href="http://www.utm.my/" target="_blank"><img src="<?php echo base_url('assets/img/utm.png'); ?>" alt="" style="width:150px;"></a>
 					<a href="http://www.upm.edu.my/" target="_blank"><img src="<?php echo base_url('assets/img/upm.png'); ?>" alt="" style="width:150px;"></a>
 				</div>
-				<div class="col-md-4">
-					<div id="owl-f">
+				<div class="col-md-2" style="margin-right:-70px;">
 						<div class="item" >
-							<b>Funded by</b><a href="http://www.dikti.go.id" target="_blank"><img src="<?php echo base_url('assets/img/ristek.png'); ?>" alt="" class="img-rounded" align="center"></a><br>
+							<b>Funded by</b>
+							<a href="http://www.dikti.go.id" target="_blank"><img src="<?php echo base_url('assets/img/ristek.png'); ?>" alt="" class="img-rounded" align="center" style="width:100px;"></a><br>
 						</div>	
-						<div class="item">
-							<b>Supported by</b><a href="http://www.qwords.com" target="_blank"><img src="<?php echo base_url('assets/img/QWORDS.png'); ?>" alt="" class="img-rounded" style="width:150%; height:auto; margin-top:-20px;"></a>
-						</div>											
-					</div>
+				</div>
+				<div class="col-md-2" style="width: 250px;">
+					<b>Supported by</b><br><br>
+					<a href="http://aptikomjabar.org/" target="_blank"><img src="<?php echo base_url('assets/img/aptikom.png'); ?>" alt="" class="img-rounded" style="width:90px; height:auto;margin-left:-10px;margin-right:10px;"></a>
+					<a href="http://www.qwords.com" target="_blank"><img src="<?php echo base_url('assets/img/QWORDS.png'); ?>" alt="" class="img-rounded" style="width:120px; height:auto;"></a>
 				</div>
 			</div>
 		</div>

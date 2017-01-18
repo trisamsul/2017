@@ -17,8 +17,8 @@
 	<div class="row">
 		<div class="col-md-6 col-sm-12">		
 			<p class="phase">Phase I</p>
-			<p class="datephase">Desember 30, 2016</p>
-			<p class="linephase" align="left">Deadline for paper submission<p>
+			<p class="datephase"><strike>Desember 30, 2016</strike></p>
+			<p class="linephase" align="left"><strike>Deadline for paper submission</strike><p>
 			<p class="datephase">January 31, 2017</p>
 			<p class="linephase" align="left">Notification of accepted paper<p>
 			<p class="datephase">February 28, 2017</p>
