@@ -1,7 +1,7 @@
 <?php 
 	if(isset($m)){
 		if($m == 1){
-			echo "<script type='text/javascript'>alert('Thanks for signing up, welcome to the conference');</script>";
+			echo "<script type='text/javascript'>alert('Thank you for participating in ICSITech 2017, Please check your Inbox.');</script>";
 		}else{
 			echo "<script type='text/javascript'>alert('Failed please try again.');</script>";
 		}
@@ -234,16 +234,16 @@
 					 <select name="category" class="form-control" style="border-radius: 0px; height: 65px; border: 1px solid #000; font-size: 18px; padding-left: 15px;" required>
 					   <option value="" disabled selected>Categories</option>
 					   <optgroup label="-General-">
-					   <option value="gsp">Speaker</option>
-					   <option value="gimsp">IEEE Member Speaker</option>
-					   <option value="gamsp">APTIKOM Member Speaker</option>
-					   <option value="gnp">Next Paper</option>
-					   <option value="gnsp">Non-Speaker</option>
+					   <option value="Speaker">Speaker</option>
+					   <option value="IEEE Member Speaker">IEEE Member Speaker</option>
+					   <option value="APTIKOM Member Speaker">APTIKOM Member Speaker</option>
+					   <option value="Next Paper">Next Paper</option>
+					   <option value="Non-Speaker">Non-Speaker</option>
 					   <optgroup label="-Student-">
-					   <option value="ssp">Speaker</option>
-					   <option value="simsp">IEEE Member Speaker</option>
-					   <option value="snp">Next Paper</option>
-					   <option value="snsp">Non-Speaker</option>
+					   <option value="Student Speaker">Speaker</option>
+					   <option value="Student IEEE Member Speaker">IEEE Member Speaker</option>
+					   <option value="Student Next Paper">Next Paper</option>
+					   <option value="Student Non-Speaker">Non-Speaker</option>
 					 </select>
 				 </div>
 				 <div class="form-group col-lg-12 col-md-12 col-sm-12 slideanim">

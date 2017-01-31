@@ -101,6 +101,7 @@
 			</div>
 			<div class="col-md-4" id="box3">
 				<h3><a href="<?php echo site_url('Conference/publication'); ?>" class="link2">PUBLICATION & ETHICS >></a></h3>
+				<h3><a href="<?php echo site_url('Visa/'); ?>" class="link2">VISA MATTERS </a>&nbsp;<a href="<?php echo site_url('Contact/'); ?>" class="link2">CONTACT>></a></h3>
 			</div>		
 		</div>
 		<br><br>

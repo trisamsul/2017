@@ -81,7 +81,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul class="nav navbar-nav" style="">
 			        <!-- <li class="pull-left"><a href="#">Dashboard</a></li> -->
-			        <li class="divider"><a href="http://icsitech.org/">HOME</a></li>
+			        <li class="divider"><a href="<?php echo site_url(''); ?>">HOME</a></li>
 			        <li class="delimiter"><a onclick="return false;">//</a></li>
 			        <li class="divider"><a href="<?php echo site_url('Committee/Keynote'); ?>">KEYNOTE SPEAKERS</a></li>
 	  		        <li class="delimiter"><a>//</a></li>
@@ -91,9 +91,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			        <li class="delimiter"><a>//</a></li>		        
 			        <li class="divider"><a href="<?php echo site_url('Venue/'); ?>">VENUE</a></li>
 			        <li class="delimiter"><a>//</a></li> 
-			        <li class="divider"><a href="<?php echo site_url('Visa/'); ?>">VISA MATTERS</a></li>		        
-			        <li class="delimiter"><a>//</a></li>
-			        <li class="divider"><a href="<?php echo site_url('Contact/'); ?>">CONTACT</a></li>
+			        <li class="divider"><a href="<?php echo site_url('Registration/'); ?>">REGISTRATION</a></li>
+			        <li class="delimiter"><a>//</a></li>		        			        
+<!-- 			        <li class="divider"><a href="<?php echo site_url('Visa/'); ?>">VISA MATTERS</a></li>		        
+			        <li class="delimiter"><a>//</a></li> -->
+			        <li class="divider"><a href="<?php echo site_url('Submission/'); ?>">SUBMISSION</a></li>
 			        <li class="delimiter"><a>//</a></li>
 				<li class="divider"><a href="<?php echo site_url('Download/'); ?>">DOWNLOAD</a></li>		        
 			      </ul>
