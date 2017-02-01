@@ -25,6 +25,7 @@ class Dashboard extends CI_Controller {
 		$this->head['tRev'] = $this->ModelCommittee->selectAll()->num_rows();
 		$this->head['tPar'] = $this->ModelParticipant->selectAll(1)->num_rows();
 		$this->head['tPay'] = $this->ModelParticipant->selectAll()->num_rows();
+		$this->head['tNews'] = $this->ModelNews->selectAll()->num_rows();
 		$this->foot['v'] = $this->ModelParticipant->selectAll(1)->num_rows();
 		$this->foot['uv'] = $this->ModelParticipant->selectAll()->num_rows() - $this->foot['v'];
 	}
@@ -161,6 +162,44 @@ class Dashboard extends CI_Controller {
 			$data = $this->input->post();
 			$this->ModelCommittee->insert($data);
 			redirect('Dashboard/reviewer');
+			// var_dump($data);
+		}
+	}
+
+	public function news(){
+		$data['data'] = $this->ModelNews->selectAll()->result_array();
+
+		if(isset($_SESSION['logged_in'])){	
+			
+			$this->load->view('dashboard/layout/header',$this->head);
+			$this->load->view('dashboard/news',$data);
+			$this->load->view('dashboard/layout/footer');			
+		}else{
+			redirect('admin/');
+		}
+	}
+
+	public function ActNews($command,$id=0){
+		if($command == "edit"){
+			$data['edit'] = $this->ModelNews->selectById($id)->row_array();
+			$this->load->view('dashboard/layout/header',$this->head);
+			$this->load->view('dashboard/newsf',$data);
+			$this->load->view('dashboard/layout/footer');	
+		}else if($command == "add"){
+			$this->load->view('dashboard/layout/header',$this->head);
+			$this->load->view('dashboard/newsf');
+			$this->load->view('dashboard/layout/footer');	
+		}else if($command == "editAct"){
+			$data = $this->input->post();
+			$this->ModelNews->update($id,$data);
+			redirect('Dashboard/news');
+		}else if($command == "del"){
+			$this->ModelNews->delete($id);
+			redirect('Dashboard/news');
+		}else if($command == "addAct"){
+			$data = $this->input->post();
+			$this->ModelNews->insert($data);
+			redirect('Dashboard/news');
 			// var_dump($data);
 		}
 	}

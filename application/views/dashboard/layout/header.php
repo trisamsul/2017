@@ -58,7 +58,7 @@
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 					<img src="<?php echo base_url("assets/img/favicon.png"); ?>" class="user-image" alt="User Image">
 					<span class="hidden-xs">
-						Admin
+						<?php echo $_SESSION['fullname']; ?>
 					</span>
 				</a>
 				<ul class="dropdown-menu">
@@ -66,9 +66,9 @@
 					<li class="user-header">
 						<img src="<?php echo base_url("assets/img/favicon.png"); ?>" class="img-circle" alt="User Image">
 						<p>
-							Super Admin
+							<?php echo $_SESSION['fullname'];?>
 							<small>
-								ICSITech2017 - Admin
+								ICSITech2017 - <?php echo $_SESSION['username']; ?>
 							</small>
 						</p>
 					</li>
@@ -141,7 +141,17 @@
 				</span> 
           </a>
         </li> 
-        <?php } ?>                 
+        <?php } ?>     
+        <li class="<?php if($this->uri->segment(2) == 'news') echo "active"; ?> treeview">
+          <a href="<?php echo site_url('Dashboard/news'); ?>">
+            <i class="fa fa-newspaper-o"></i> 
+            <span>News</span>
+       		<span class="pull-right-container">
+					<!-- <small class="label pull-right bg-blue">14</small>             -->
+					<small class="label pull-right bg-light-blue"><?php echo $tNews; ?></small>            
+				</span> 
+          </a>
+        </li> 
         <li class="header">LABELS</li>
         <li><a href="#"><i class="fa fa-circle-o text-red"></i><span>Important</span></a></li>
         <li><a href="#"><i class="fa fa-circle-o text-yellow"></i><span>Warning</span></a></li>

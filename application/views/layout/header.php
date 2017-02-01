@@ -83,6 +83,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			        <!-- <li class="pull-left"><a href="#">Dashboard</a></li> -->
 			        <li class="divider"><a href="<?php echo site_url(''); ?>">HOME</a></li>
 			        <li class="delimiter"><a onclick="return false;">//</a></li>
+			        <li class="divider"><a href="<?php echo site_url('News/'); ?>">NEWS</a></li>
+			        <li class="delimiter"><a onclick="return false;">//</a></li>
 			        <li class="divider"><a href="<?php echo site_url('Committee/Keynote'); ?>">KEYNOTE SPEAKERS</a></li>
 	  		        <li class="delimiter"><a>//</a></li>
 			        <li class="divider"><a href="<?php echo site_url('Committee/'); ?>">COMMITTEES</a></li>
